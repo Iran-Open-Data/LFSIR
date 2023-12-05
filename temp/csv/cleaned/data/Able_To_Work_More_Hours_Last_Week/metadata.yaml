@@ -1,0 +1,12 @@
+1384:
+  column_code: F3_D18
+  question: 'آیا این آمادگی و توانایی را داشتید که ساعات کار خود را افزایش دهید؟ '
+  translation: 'Last week, were you able to work more hours? '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D22
+  question: 'آیا این آمادگی و توانایی را داشتید که ساعات کار خود را افزایش دهید؟ '
+  translation: 'Last week, were you able to work more hours? '
+  type: boolean
+  true_condition: 1

@@ -1,0 +1,10 @@
+1384:
+  column_code: F2_D11
+  type: category
+  categories:
+    1: Same_City_Other_Place
+    2: Same_Province_Other_City
+    3: Same_Province_Other_Village
+    4: Other_Province_Other_City
+    5: Other_Province_Other_Village
+    6: Abroad

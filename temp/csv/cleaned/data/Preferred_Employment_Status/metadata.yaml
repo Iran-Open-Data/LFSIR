@@ -1,0 +1,18 @@
+1384:
+  column_code: F3_D42
+  question: 'چه وضعیت شغلی را ترجیح می‌دهید؟ ۱- خود اشتغالی ۲- مزد و حقوق‌بگیری '
+  translation: 'Which employment status do you prefer? 1 - Self-employment 2 - Paid
+    employment '
+  type: category
+  categories:
+    1: Self_employment
+    2: Paid_employment
+1387:
+  column_code: F3_D49
+  question: 'چه وضعیت شغلی را ترجیح می‌دهید؟ ۱- خود اشتغالی ۲- مزد و حقوق‌بگیری '
+  translation: 'Which employment status do you prefer? 1 - Self-employment 2 - Paid
+    employment '
+  type: category
+  categories:
+    1: Self_employment
+    2: Paid_employment

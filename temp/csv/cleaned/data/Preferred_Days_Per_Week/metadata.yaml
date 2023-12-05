@@ -1,0 +1,7 @@
+1387:
+  column_code: F3_D48ROZ
+  question: 'با توجه به شرابط خود تمایل دارید چند ساعت در روز و چند روز در هفته کار
+    کنید؟ روز در هفته '
+  translation: 'Considering your circumstances, how many hours per day and days per
+    week would you prefer to work? Days per week '
+  type: UInt16

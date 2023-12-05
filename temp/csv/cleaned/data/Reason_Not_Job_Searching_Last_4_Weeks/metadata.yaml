@@ -1,0 +1,60 @@
+1384:
+  column_code: F3_D35
+  question: 'علت این که در طول چهار هفته‌ی گذشته در جستجوی کار نبوده‌اید چیست؟ ۱-
+    آغاز به کار در آینده (انتظار برای شروع کار جدید) ۲- در انتظار پاسخ کارفرما یا
+    در انتظار اعلام نتایج آزمون استخدامی ۳- در انتظار به ثمر رسیدن سایر اقدامات انجام
+    شده برای پیدا کردن کار ۴- دلسرد شدن از جستجوی کار، ناامید شدن از پیدا کردن کار
+    ۵- در انتظار بازگشت به شغل قبلی ۶- در انتظار فصل کاری ۷- آگاهی نداشتن از روش‌های
+    جستجوی کار ۸- بیماری، ناتوانی جسمی موقت، بارداری ۹- اشتغال به تحصیل یا آموزش ۱۰-
+    مسئولیت‌های شخصی یا خانوادگی ۱۱- بی‌نیاز بودن از انجام کار ۱۲- سایر '
+  translation: 'What is the reason you were not searching for work in the past 4 weeks?
+    1 - Starting work in future (waiting to start new job) 2 - Awaiting employer response
+    or job test results 3 - Awaiting other job search efforts to come to fruition
+    4 - Discouraged from job search, lost hope of finding work 5 - Awaiting return
+    to previous job 6 - Awaiting work season  7 - Unaware of job search methods 8
+    - Illness, temporary disability, pregnancy 9 - In education or training 10 - Personal
+    or family responsibilities 11 - No need to work 12 - Other '
+  type: category
+  categories:
+    1: Starting_Future_Job
+    2: Awaiting_Response
+    3: Awaiting_Search_Results
+    4: Discouraged
+    5: Awaiting_Previous_Job
+    6: Awaiting_Season
+    7: Unaware_of_Methods
+    8: Illness
+    9: Education_or_Training
+    10: Personal_Issues
+    11: No_Need_to_Work
+    12: Other
+1387:
+  column_code: F3_D33
+  question: 'علت این که در طول چهار هفته‌ی گذشته در جستجوی کار نبوده‌اید چیست؟ ۱-
+    آغاز به کار در آینده (انتظار برای شروع کار جدید) ۲- در انتظار پاسخ کارفرما یا
+    در انتظار اعلام نتایج آزمون استخدامی ۳- در انتظار به ثمر رسیدن سایر اقدامات انجام
+    شده برای پیدا کردن کار ۴- دلسرد شدن از جستجوی کار، ناامید شدن از پیدا کردن کار
+    ۵- در انتظار بازگشت به شغل قبلی ۶- در انتظار فصل کاری ۷- آگاهی نداشتن از روش‌های
+    جستجوی کار ۸- بیماری، ناتوانی جسمی موقت، بارداری ۹- اشتغال به تحصیل یا آموزش ۱۰-
+    مسئولیت‌های شخصی یا خانوادگی ۱۱- بی‌نیاز بودن از انجام کار ۱۲- سایر '
+  translation: 'What is the reason you were not searching for work in the past 4 weeks?
+    1 - Starting work in future (waiting to start new job) 2 - Awaiting employer response
+    or job test results 3 - Awaiting other job search efforts to come to fruition
+    4 - Discouraged from job search, lost hope of finding work 5 - Awaiting return
+    to previous job 6 - Awaiting work season  7 - Unaware of job search methods 8
+    - Illness, temporary disability, pregnancy 9 - In education or training 10 - Personal
+    or family responsibilities 11 - No need to work 12 - Other '
+  type: category
+  categories:
+    1: Starting_Future_Job
+    2: Awaiting_Previous_Job
+    3: Awaiting_Response
+    4: Awaiting_Search_Results
+    5: Discouraged
+    6: Awaiting_Season
+    7: Unaware_of_Methods
+    8: Illness
+    9: Education_or_Training
+    10: Personal_Issues
+    11: No_Need_to_Work
+    12: Other

@@ -1,0 +1,16 @@
+1384:
+  column_code: F3_D1_33
+  question: 'در طول چهار هفته‌ی گذشته از طریق کدام شیوه در جستجوی کار یوده‌اید؟ ثبت‌نام
+    و یا پیگیری در موسسات کاریابی وزارت کار '
+  translation: 'In the past 4 weeks, which method did you use to look for work? Registering
+    or following up with other employment agencies '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D1_32
+  question: 'در طول چهار هفته‌ی گذشته از طریق کدام شیوه در جستجوی کار یوده‌اید؟ ثبت‌نام
+    و یا پیگیری در موسسات کاریابی وزارت کار '
+  translation: 'In the past 4 weeks, which method did you use to look for work? Registering
+    or following up with other employment agencies '
+  type: boolean
+  true_condition: 1

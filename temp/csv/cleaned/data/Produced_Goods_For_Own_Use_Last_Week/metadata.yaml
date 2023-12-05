@@ -1,0 +1,10 @@
+1387:
+  column_code: F3_D04
+  question: 'در طول هفته‌ی گذشته حداقل یک ساعت برای تولید کالاهای بادوام به منظور
+    مصرف خود یا خانوار خود کاری انجام داده‌اید؟ مانند قالی‌بافی، گلیم‌بافی، حصیربافی،
+    دوخت لباس و مانند آن. '
+  translation: 'Last week, did you spend at least 1 hour producing durable goods for
+    own or household use? Such as rug weaving, mat weaving, basket weaving, sewing
+    clothes, etc. '
+  type: boolean
+  true_condition: 1

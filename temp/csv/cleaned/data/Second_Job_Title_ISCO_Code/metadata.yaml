@@ -1,0 +1,18 @@
+1384:
+  column_code: F3_D24
+  question: 'عنوان و وظیفه‌ی اصلی در شغل دوم (کد ISCO عنوان شغل دوم) '
+  translation: 'Main job title and primary duties in the second job (ISCO code for
+    second job title) '
+  type: UInt32
+  replace:
+    X000: '000'
+    X0000: '0000'
+1387:
+  column_code: F3_D28
+  question: 'عنوان و وظیفه‌ی اصلی در شغل دوم (کد ISCO عنوان شغل دوم) '
+  translation: 'Main job title and primary duties in the second job (ISCO code for
+    second job title) '
+  type: UInt32
+  replace:
+    X000: '000'
+    X0000: '0000'

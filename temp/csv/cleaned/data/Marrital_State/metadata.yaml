@@ -1,0 +1,8 @@
+1384:
+  column_code: F2_D19
+  type: category
+  categories:
+    1: Married
+    2: Widowed
+    3: Divorced
+    4: Bachelor

@@ -1,0 +1,12 @@
+1384:
+  column_code: F3_D03
+  question: 'آیا در طول هفته‌ی گذشته، حداقل یک ساعت برای یکی از خویشاوندان عضو خانوار
+    خود، به منظور ایجاد درآمد برای خانوار، کاری انجام داده‌اید که به ازای آن مزد و
+    حقوق (حتی غیر نقدی) دریافت نکرده باشید؟ (مثل کمک به سرپرست خانوار در فعالیت‌های
+    کشاورزی یا مغازه‌داری و امثال آن) '
+  translation: 'In the past week, did you work for at least one hour without pay in
+    a business owned by one of your relatives in the household, in order to generate
+    income for the household? (For example, helping the head of household with farming,
+    shopkeeping, etc.) '
+  type: boolean
+  true_condition: 1

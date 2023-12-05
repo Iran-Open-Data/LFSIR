@@ -1,0 +1,16 @@
+1384:
+  column_code: F3_D04
+  question: 'آیا کاری داشته‌اید که به دلایلی موقتا طول هفته‌ی گذشته از آن غایب بوده
+    باشید به طوری که مطمئن باشید به آن کار باز می‌گردید؟ '
+  translation: 'Did you have a job that you were temporarily absent from last week
+    for certain reasons, and you are sure you will return to? '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D06
+  question: 'آیا کاری داشته‌اید که به دلایلی موقتا طول هفته‌ی گذشته از آن غایب بوده
+    باشید به طوری که مطمئن باشید به آن کار باز می‌گردید؟ '
+  translation: 'Did you have a job that you were temporarily absent from last week
+    for certain reasons, and you are sure you will return to? '
+  type: boolean
+  true_condition: 1

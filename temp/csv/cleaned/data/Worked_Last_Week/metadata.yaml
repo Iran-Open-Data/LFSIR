@@ -1,0 +1,8 @@
+1384:
+  column_code: F3_D01
+  question: 'آیا در طول هفته‌ی گذشته، حداقل یک ساعت به منظور دریافت مزد و حقوق، کسب
+    سود یا درآمد، برای خود یا خانوار خود کاری انجام داده‌اید؟ '
+  translation: 'In the past week, did you work at least one hour to earn wages, salary,
+    profit or income (cash or in-kind)? '
+  type: boolean
+  true_condition: 1

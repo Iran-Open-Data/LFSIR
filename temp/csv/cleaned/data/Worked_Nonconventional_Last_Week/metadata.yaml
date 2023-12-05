@@ -1,0 +1,14 @@
+1384:
+  column_code: F3_D02
+  question: 'آیا در طول هفته‌ی گذشته، حداقل یک ساعت به منظور کسب درآمد نقدی یا غیر
+    نقدی، برای خود یا خانوار خود، فعالیت‌هایی نظیر : کشاورزی شامل : زراعت، باغداری،
+    دامداری، ماهیگیری و ... کار تولیدی یا خدماتی در منزل مثل قالی‌بافی، خیاطی، آرایشگری،
+    تایپ، تدریس خصوصی، تعمیر وسایل برقی و ... انجام خدمت وظیفه کارآموزی در یک موسسه
+    تحصیل به عنوان بورسیه یک سازمان انجام داده‌اید؟ '
+  translation: 'In the past week, did you work for at least one hour to earn income
+    through activities such as: Agriculture including farming, gardening, livestock,
+    fishing, etc. Manufacturing or services at home like rug weaving, sewing, hairdressing,
+    typing, private tutoring, appliance repair, etc. Performing military or civil
+    service Interning at an institution Studying under scholarship from an organization? '
+  type: boolean
+  true_condition: 1

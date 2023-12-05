@@ -1,0 +1,30 @@
+1384:
+  column_code: F3_D41
+  question: 'به چه علت برای شروع به کار آمادگی نداشتید؟ ۱- لزوم اتمام دوره‌ی تحصیلی
+    یا گذراندن دوره‌ی آموزشی مربوط ۲- بیماری، ناتوانی جسمانی موقت ۳- نداشتن شرایط
+    سنی مناسب ۴- مسئولیت‌های شخصی و خانوادگی ۵- سایر '
+  translation: 'Why were you not ready to start working? 1 - Need to complete education
+    or related training 2 - Illness, temporary disability 3 - Not having suitable
+    age 4 - Personal and family responsibilities 5 - Other '
+  type: category
+  categories:
+    1: Complete education
+    2: Illness
+    3: Unsuitable_Age
+    4: Personal_Issues
+    5: Other
+1387:
+  column_code: F3_D46
+  question: 'به چه علت برای شروع به کار آمادگی نداشتید؟ ۱- لزوم اتمام دوره‌ی تحصیلی
+    یا گذراندن دوره‌ی آموزشی مربوط ۲- بیماری، ناتوانی جسمانی موقت ۳- نداشتن شرایط
+    سنی مناسب ۴- مسئولیت‌های شخصی و خانوادگی ۵- سایر '
+  translation: 'Why were you not ready to start working? 1 - Need to complete education
+    or related training 2 - Illness, temporary disability 3 - Not having suitable
+    age 4 - Personal and family responsibilities 5 - Other '
+  type: category
+  categories:
+    1: Complete education
+    2: Illness
+    3: Unsuitable_Age
+    4: Personal_Issues
+    5: Other

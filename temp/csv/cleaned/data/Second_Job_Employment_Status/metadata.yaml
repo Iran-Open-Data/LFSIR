@@ -1,0 +1,38 @@
+1384:
+  column_code: F3_D25
+  question: 'وضع شغلی در شغل دوم کارفرما کارکن مستقل کارکن فامیلی بدون مزد مزد و حقوق
+    بگیر بخش خصوصی مزد و حقوق بگیر بخش عمومی مزد و حقوق بگیر بخش تعاونی کارآموز با
+    مزد کارآموز بدون مزد '
+  translation: 'Employment status in second job: Employer Self-employed worker Unpaid
+    family worker Private sector employee Public sector employee Cooperative sector
+    employee Paid apprentice Unpaid apprentice '
+  type: category
+  categories:
+    1: Employer
+    2: Self-employed
+    3: Unpaid_Family_Worker
+    4: Private_Sector_Employee
+    5: Public_Sector_Employee
+    6: Cooperative_Sector_Employee
+    7: Paid_Apprentice
+    8: Unpaid_Apprentice
+1387:
+  column_code: F3_D30
+  question: 'وضع شغلی در شغل دوم کارفرما کارکن مستقل کارکن فامیلی بدون مزد مزد و حقوق
+    بگیر بخش خصوصی مزد و حقوق بگیر بخش عمومی مزد و حقوق بگیر بخش تعاونی کارآموز با
+    مزد کارآموز بدون مزد '
+  translation: 'Employment status in second job: Employer Self-employed worker Unpaid
+    family worker Private sector employee Public sector employee Cooperative sector
+    employee Paid apprentice Unpaid apprentice '
+  type: category
+  categories:
+    1: Employer
+    2: Self-employed
+    3: Unpaid_Family_Worker
+    4: Private_Sector_Employee
+    5: Public_Sector_Employee
+    6: Cooperative_Sector_Employee
+    7: Public_Sector_Paid_Apprentice
+    8: Public_Sector_Unpaid_Apprentice
+    9: Private_Sector_Paid_Apprentice
+    10: Private_Sector_Unpaid_Apprentice

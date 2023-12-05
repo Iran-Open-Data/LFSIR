@@ -1,0 +1,56 @@
+1384:
+  column_code: F3_D31
+  question: 'علت اصلی ترک شغل شما چه بود؟ ۱- پایین بودن درآمد ۲- تعطیلی دائمی محل
+    کار ۳- فصلی بودن کار ۴- موقتی بودن کار ۵- جابجایی محل کار ۶- تحصیل یا آموزش ۷-
+    اخراج یا تعدیل نیرو ۸- مسائل خانوادگی ۹- مهاجرت ۱۰- بازنشستگی ۱۱- به پایان رسیدن
+    دوره‌ی خدمت وظیفه ۱۲- سایر '
+  translation: 'What was the main reason for leaving your job? 1 - Low income 2 -
+    Permanent workplace closure 3 - Seasonal work 4 - Temporary work 5 - Workplace
+    relocation 6 - Education or training 7 - Layoff or downsizing 8 - Family issues
+    9 - Migration 10 - Retirement 11 - End of military service 12 - Other '
+  type: category
+  categories:
+    1: Low_Income
+    2: Workplace_Closure
+    3: Seasonal
+    4: Temporary
+    5: Relocation
+    6: Education_or_Training
+    7: Layoff
+    8: Family
+    9: Migration
+    10: Retirement
+    11: Military_Service_Ended
+    12: Other
+  replace:
+    '21': null
+    '82': null
+1387:
+  column_code: F3_D44
+  question: 'علت اصلی ترک شغل شما چه بود؟ ۱- پایین بودن درآمد ۲- تعطیلی دائمی محل
+    کار ۳- فصلی بودن کار ۴- موقتی بودن کار ۵- جابجایی محل کار ۶- تحصیل یا آموزش ۷-
+    اخراج یا تعدیل نیرو ۸- مسائل خانوادگی ۹- مهاجرت ۱۰- بازنشستگی ۱۱- به پایان رسیدن
+    دوره‌ی خدمت وظیفه ۱۲- سایر '
+  translation: 'What was the main reason for leaving your job? 1 - Low income 2 -
+    Permanent workplace closure 3 - Seasonal work 4 - Temporary work 5 - Workplace
+    relocation 6 - Education or training 7 - Layoff or downsizing 8 - Family issues
+    9 - Migration 10 - Retirement 11 - End of military service 12 - Other '
+  type: category
+  categories:
+    1: Low_Income
+    2: Workplace_Closure
+    3: Seasonal
+    4: Temporary
+    5: Relocation
+    6: Education_or_Training
+    7: Layoff
+    8: Family
+    9: Migration
+    10: Retirement
+    11: Military_Service_Ended
+    12: Old_Age
+    13: Illness
+    14: Other
+  replace:
+    '21': null
+    '82': null

@@ -1,0 +1,8 @@
+1387:
+  column_code: F3_D05
+  question: 'در طول هفته‌ی گذشته حداقل یک ساعت به فعالیت‌هایی نظیر : کارآموزی بدون
+    مزد یا با مزد یا انجام خدمت وظیفه پرداخته‌اید؟ '
+  translation: 'Last week, did you spend at least 1 hour on unpaid or paid apprenticeship
+    or performing military/civil service? '
+  type: boolean
+  true_condition: 1

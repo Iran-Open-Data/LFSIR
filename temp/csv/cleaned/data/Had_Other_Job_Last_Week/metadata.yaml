@@ -1,0 +1,12 @@
+1384:
+  column_code: F3_D06
+  question: 'آیا در طول هفته‌ی گذشته کار دیگری هم داشته‌اید؟ '
+  translation: 'Did you have another job last week as well? '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D08
+  question: 'آیا در طول هفته‌ی گذشته کار دیگری هم داشته‌اید؟ '
+  translation: 'Did you have another job last week as well? '
+  type: boolean
+  true_condition: 1

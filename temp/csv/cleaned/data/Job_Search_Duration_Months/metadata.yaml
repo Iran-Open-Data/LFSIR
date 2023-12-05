@@ -1,0 +1,10 @@
+1384:
+  column_code: F3_D34MAH
+  question: 'چه مدتی است که در جستجوی کار هستید؟ ماه '
+  translation: 'How long have you been looking for work? Months '
+  type: UInt8
+1387:
+  column_code: F3_D35MAH
+  question: 'چه مدتی است که در جستجوی کار هستید؟ ماه '
+  translation: 'How long have you been looking for work? Months '
+  type: UInt8

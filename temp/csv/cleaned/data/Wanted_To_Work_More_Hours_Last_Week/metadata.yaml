@@ -1,0 +1,12 @@
+1384:
+  column_code: F3_D17
+  question: 'آیا در طول هفته‌ی گذشته، تمایل داشتید چند ساعت کار خود را افزایش دهید؟ '
+  translation: 'Last week, did you want to increase your work hours? '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D21
+  question: 'آیا در طول هفته‌ی گذشته، تمایل داشتید چند ساعت کار خود را افزایش دهید؟ '
+  translation: 'Last week, did you want to increase your work hours? '
+  type: boolean
+  true_condition: 1

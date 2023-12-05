@@ -1,0 +1,5 @@
+1384:
+  column_code: F3_D37MAH
+  question: 'چه مدتی است که تمایل دارید کار کنید؟ ماه '
+  translation: 'How long have you wanted to work? Months '
+  type: UInt8

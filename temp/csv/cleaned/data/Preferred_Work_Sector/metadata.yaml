@@ -1,0 +1,22 @@
+1384:
+  column_code: F3_D43
+  question: 'ترجیح می‌دهید در کدام یک از بخش‌های زیر کار کنید؟ ۱- کشاورزی ۲- صنعت
+    ۳- خدمات '
+  translation: 'In which of the following sectors do you prefer to work? 1 - Agriculture
+    2 - Industry 3 - Services '
+  type: category
+  categories:
+    1: Agriculture
+    2: Industry
+    3: Services
+1387:
+  column_code: F3_D50
+  question: 'ترجیح می‌دهید در کدام یک از بخش‌های زیر کار کنید؟ ۱- کشاورزی ۲- صنعت
+    ۳- خدمات '
+  translation: 'In which of the following sectors do you prefer to work? 1 - Agriculture
+    2 - Industry 3 - Services '
+  type: category
+  categories:
+    1: Agriculture
+    2: Industry
+    3: Services

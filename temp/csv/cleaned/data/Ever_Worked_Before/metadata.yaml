@@ -1,0 +1,12 @@
+1384:
+  column_code: F3_D26
+  question: 'آیا قبلا هرگز کار کرده‌اید؟ '
+  translation: 'Have you ever worked before? '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D39
+  question: 'آیا قبلا هرگز کار کرده‌اید؟ '
+  translation: 'Have you ever worked before? '
+  type: boolean
+  true_condition: 1

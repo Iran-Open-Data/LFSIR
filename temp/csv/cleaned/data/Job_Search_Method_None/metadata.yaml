@@ -1,0 +1,8 @@
+1387:
+  column_code: F3_D9_32
+  question: 'در طول چهار هفته‌ی گذشته، از طریق کدام یک از شیوه‌های زیر در جستجوی کار
+    یا دایر کردن کسب و کار بوده‌اید؟ اقدامی انجام نشده است. '
+  translation: 'In the past 4 weeks, which of the following methods did you use to
+    look for work or start a business? No action taken '
+  type: boolean
+  true_condition: 1

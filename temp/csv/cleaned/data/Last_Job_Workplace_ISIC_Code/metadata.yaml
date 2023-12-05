@@ -1,0 +1,18 @@
+1384:
+  column_code: F3_D28
+  question: 'ویژگی‌ها و فعالیت اصلی محل کار آخرین شغل (کد ISIC محل کار آخرین شغل) '
+  translation: 'Main characteristics and activity of the last job''s workplace (ISIC
+    code of the last job''s workplace) '
+  type: UInt32
+  replace:
+    X000: '000'
+    X0000: '0000'
+1387:
+  column_code: F3_D42
+  question: 'ویژگی‌ها و فعالیت اصلی محل کار آخرین شغل (کد ISIC محل کار آخرین شغل) '
+  translation: 'Main characteristics and activity of the last job''s workplace (ISIC
+    code of the last job''s workplace) '
+  type: UInt32
+  replace:
+    X000: '000'
+    X0000: '0000'

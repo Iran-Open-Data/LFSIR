@@ -1,0 +1,6 @@
+1384:
+  column_code: F3_D36
+  question: 'آیا تمایل دارید که در شغل یا حرفه‌ای مشغول کار شوید؟ '
+  translation: 'Do you want to have a job or occupation? '
+  type: boolean
+  true_condition: 1

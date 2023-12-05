@@ -1,0 +1,16 @@
+1384:
+  column_code: F3_D32
+  question: 'آیا در طول چهار هفته‌ی گذشته (شامل هفته‌ی مرجع) اقدامات مشخصی برای جستجوی
+    کار انجام داده‌اید؟ '
+  translation: 'In the past 4 weeks (including the reference week), did you take specific
+    actions to search for work? '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D31
+  question: 'آیا در طول چهار هفته‌ی گذشته (شامل هفته‌ی مرجع) اقدامات مشخصی برای جستجوی
+    کار انجام داده‌اید؟ '
+  translation: 'In the past 4 weeks (including the reference week), did you take specific
+    actions to search for work? '
+  type: boolean
+  true_condition: 1

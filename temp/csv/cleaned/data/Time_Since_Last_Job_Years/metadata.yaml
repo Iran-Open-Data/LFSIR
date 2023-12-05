@@ -1,0 +1,10 @@
+1384:
+  column_code: F3_D27SAL
+  question: 'از ترک آخرین کار شما چه مدت گذشته است؟ سال '
+  translation: 'How long has it been since you left your last job? Years '
+  type: UInt8
+1387:
+  column_code: F3_D40SAL
+  question: 'از ترک آخرین کار شما چه مدت گذشته است؟ سال '
+  translation: 'How long has it been since you left your last job? Years '
+  type: UInt8

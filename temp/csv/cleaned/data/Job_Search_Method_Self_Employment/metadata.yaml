@@ -1,0 +1,16 @@
+1384:
+  column_code: F3_D5_33
+  question: 'در طول چهار هفته‌ی گذشته از طریق کدام شیوه در جستجوی کار یوده‌اید؟ جستجوی
+    منابع مالی و امکانات برای شروع فعالیت خود اشتغالی '
+  translation: 'In the past 4 weeks, which method did you use to look for work? Searching
+    for financial resources and possibilities to start self-employment '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D5_32
+  question: 'در طول چهار هفته‌ی گذشته از طریق کدام شیوه در جستجوی کار یوده‌اید؟ جستجوی
+    منابع مالی و امکانات برای شروع فعالیت خود اشتغالی '
+  translation: 'In the past 4 weeks, which method did you use to look for work? Searching
+    for financial resources and possibilities to start self-employment '
+  type: boolean
+  true_condition: 1

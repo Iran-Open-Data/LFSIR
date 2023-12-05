@@ -1,0 +1,16 @@
+1384:
+  column_code: F3_D4_33
+  question: 'در طول چهار هفته‌ی گذشته از طریق کدام شیوه در جستجوی کار یوده‌اید؟ پرس
+    و جو از دوستان آشنایان '
+  translation: 'In the past 4 weeks, which method did you use to look for work? Asking
+    friends or acquaintances '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D4_32
+  question: 'در طول چهار هفته‌ی گذشته از طریق کدام شیوه در جستجوی کار یوده‌اید؟ پرس
+    و جو از دوستان آشنایان '
+  translation: 'In the past 4 weeks, which method did you use to look for work? Asking
+    friends or acquaintances '
+  type: boolean
+  true_condition: 1

@@ -1,0 +1,10 @@
+1384:
+  column_code: F3_D1_38MAH
+  question: 'در مجموع چند سال و چند ماه کار کرده‌اید؟ سال '
+  translation: 'In total, how many years and months have you worked? Years '
+  type: UInt8
+1387:
+  column_code: F3_D37MAH
+  question: 'در مجموع چند سال و چند ماه کار کرده‌اید؟ سال '
+  translation: 'In total, how many years and months have you worked? Years '
+  type: UInt8

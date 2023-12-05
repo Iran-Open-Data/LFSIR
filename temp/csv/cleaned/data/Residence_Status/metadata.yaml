@@ -1,0 +1,8 @@
+1384:
+  column_code: F2_D09
+  type: category
+  categories:
+    1: Present
+    2: Temporary_Absent
+    3: Abroad
+    4: Others

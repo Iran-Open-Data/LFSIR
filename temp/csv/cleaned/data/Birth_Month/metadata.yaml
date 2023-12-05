@@ -1,0 +1,7 @@
+1384:
+  column_code: F2_D05
+  type: UInt8
+  replace:
+    QQ: null
+    qq: null
+    '99': null

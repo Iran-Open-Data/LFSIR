@@ -1,0 +1,25 @@
+1384:
+  column_code: F2_D12
+  type: category
+  categories:
+    1: Job_Transfer
+    2: Marrage
+    3: Education
+    4: Job_Seeking
+    5: Seeking_Better_Job
+    6: Following_Household
+    7: Natural_Disaster
+    8: Other
+1387:
+  column_code: F2_D12
+  type: category
+  categories:
+    1: Job_Seeking
+    2: Seeking_Better_Job
+    3: Job_Transfer
+    4: Education
+    5: Ending_Education
+    6: Military_Service
+    7: Ending_Military_Service
+    8: Following_Household
+    9: Other

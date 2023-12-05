@@ -1,0 +1,14 @@
+1384:
+  column_code: F3_D15SHANBEH
+  question: 'در طول هفته‌ی گذشته، در مجموع برای همه‌ی مشاغل خود چند ساعت کار کرده‌اید؟
+    (شامل اضافه کاری ولی به استثنای تعطیلات و مرخصی‌ها) شنبه '
+  translation: 'Last week, how many total hours did you work in all your jobs? (Including
+    overtime but excluding holidays and leave) Saturday '
+  type: UInt8
+1387:
+  column_code: F3_D18SHANBEH
+  question: 'در طول هفته‌ی گذشته، در مجموع برای همه‌ی مشاغل خود چند ساعت کار کرده‌اید؟
+    (شامل اضافه کاری ولی به استثنای تعطیلات و مرخصی‌ها) شنبه '
+  translation: 'Last week, how many total hours did you work in all your jobs? (Including
+    overtime but excluding holidays and leave) Saturday '
+  type: UInt8

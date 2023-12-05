@@ -1,0 +1,8 @@
+1387:
+  column_code: F3_D45
+  question: 'آیا اگر طی هفته‌ی گذشته شغل یا حرفه‌ای برای شما پیدا می‌شد، حداکثر تا
+    پایان این هفته، آمادگی شروع به کار در آن شغل یا حرفه را داشتید؟ '
+  translation: 'If a job or occupation was found for you last week, would you have
+    been ready to start working in it by the end of this week? '
+  type: boolean
+  true_condition: 1

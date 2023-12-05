@@ -1,0 +1,28 @@
+1384:
+  column_code: F3_D38
+  question: 'قبل از آن چه وضعیتی داشتید؟ ۱- مشغول به کار ۲- در حال تحصیل ۳- خانه‌دار
+    ۴- بازنشسته ۵- دارای درآمد بدون کار ۶- سایر '
+  translation: 'What was your situation before that? 1 - Employed 2 - Student 3 -
+    Homemaker 4 - Retired 5 - Had income without work 6 - Other '
+  type: category
+  categories:
+    1: Employed
+    2: Student
+    3: Homemaker
+    4: Retired
+    5: Income_Without_Work
+    6: Other
+1387:
+  column_code: F3_D36
+  question: 'قبل از آن چه وضعیتی داشتید؟ ۱- مشغول به کار ۲- در حال تحصیل ۳- خانه‌دار
+    ۴- بازنشسته ۵- دارای درآمد بدون کار ۶- سایر '
+  translation: 'What was your situation before that? 1 - Employed 2 - Student 3 -
+    Homemaker 4 - Retired 5 - Had income without work 6 - Other '
+  type: category
+  categories:
+    1: Employed
+    2: Student
+    3: Homemaker
+    4: Retired
+    5: Income_Without_Work
+    6: Other

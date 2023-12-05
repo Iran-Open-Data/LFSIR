@@ -1,0 +1,12 @@
+1384:
+  column_code: F3_D39
+  question: 'آیا در حال حاضر از بیمه‌ی بیکاری استفاده می‌کنید؟ '
+  translation: 'Are you currently receiving unemployment insurance? '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D38
+  question: 'آیا در حال حاضر از بیمه‌ی بیکاری استفاده می‌کنید؟ '
+  translation: 'Are you currently receiving unemployment insurance? '
+  type: boolean
+  true_condition: 1

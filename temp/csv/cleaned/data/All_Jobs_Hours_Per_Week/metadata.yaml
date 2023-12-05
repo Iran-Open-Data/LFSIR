@@ -1,0 +1,14 @@
+1384:
+  column_code: F3_D13SHHAMES
+  question: 'در این فصل، به طور معمول چند روز و چند ساعت در هفته کار می‌کنید؟ همه‌ی
+    مشاغل، ساعت در هفته '
+  translation: 'In this season, how many days and hours do you usually work per week?
+    All jobs, hours per week '
+  type: UInt16
+1387:
+  column_code: F3_D16SHHAMSA
+  question: 'در این فصل، به طور معمول چند روز و چند ساعت در هفته کار می‌کنید؟ همه‌ی
+    مشاغل، ساعت در هفته '
+  translation: 'In this season, how many days and hours do you usually work per week?
+    All jobs, hours per week '
+  type: UInt16

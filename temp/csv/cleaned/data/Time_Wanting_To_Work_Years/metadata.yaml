@@ -1,0 +1,5 @@
+1384:
+  column_code: F3_D37SAL
+  question: 'چه مدتی است که تمایل دارید کار کنید؟ سال '
+  translation: 'How long have you wanted to work? Years '
+  type: UInt8

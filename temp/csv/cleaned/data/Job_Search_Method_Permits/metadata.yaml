@@ -1,0 +1,16 @@
+1384:
+  column_code: F3_D6_33
+  question: 'در طول چهار هفته‌ی گذشته از طریق کدام شیوه در جستجوی کار یوده‌اید؟ تقاضای
+    جواز کسب یا پروانه‌ی کار '
+  translation: 'In the past 4 weeks, which method did you use to look for work? Applying
+    for business license or work permit '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D6_32
+  question: 'در طول چهار هفته‌ی گذشته از طریق کدام شیوه در جستجوی کار یوده‌اید؟ تقاضای
+    جواز کسب یا پروانه‌ی کار '
+  translation: 'In the past 4 weeks, which method did you use to look for work? Applying
+    for business license or work permit '
+  type: boolean
+  true_condition: 1

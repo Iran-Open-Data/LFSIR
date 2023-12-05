@@ -1,0 +1,14 @@
+1384:
+  column_code: F3_D22SAAT
+  question: 'در این فصل تمایل دارید در هر هفته چند روز و چند ساعت کار کنید؟ ساعت در
+    هفته '
+  translation: 'This season, how many days and hours per week would you like to work?
+    Hours per week '
+  type: UInt16
+1387:
+  column_code: F3_D27SAAT
+  question: 'در این فصل تمایل دارید در هر هفته چند روز و چند ساعت کار کنید؟ ساعت در
+    هفته '
+  translation: 'This season, how many days and hours per week would you like to work?
+    Hours per week '
+  type: UInt16

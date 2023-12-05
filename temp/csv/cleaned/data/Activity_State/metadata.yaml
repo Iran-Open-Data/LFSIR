@@ -1,0 +1,7 @@
+1384:
+  column_code: ACTIVITYSTATUS
+  type: category
+  categories:
+    1: Employed
+    2: Unemployed
+    3: Inactive

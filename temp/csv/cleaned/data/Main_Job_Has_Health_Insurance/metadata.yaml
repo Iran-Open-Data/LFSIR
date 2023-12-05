@@ -1,0 +1,12 @@
+1384:
+  column_code: F3_D11
+  question: 'آیا به واسطه‌ی این شغل، تحت پوشش حداقل یکی از بیمه‌های درمانی قرار دارید؟ '
+  translation: 'Does this job provide you with health insurance coverage? '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D13
+  question: 'آیا به واسطه‌ی این شغل، تحت پوشش حداقل یکی از بیمه‌های درمانی قرار دارید؟ '
+  translation: 'Does this job provide you with health insurance coverage? '
+  type: boolean
+  true_condition: 1

@@ -1,0 +1,10 @@
+1384:
+  column_code: F3_D12MAH
+  question: 'چند سال و چند ماه است که در این شغل کار می‌کنید؟ ماه '
+  translation: 'How many years and months have you been working in this job? Months '
+  type: UInt8
+1387:
+  column_code: F3_D14MAH
+  question: 'چند سال و چند ماه است که در این شغل کار می‌کنید؟ ماه '
+  translation: 'How many years and months have you been working in this job? Months '
+  type: UInt8

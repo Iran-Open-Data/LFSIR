@@ -1,0 +1,12 @@
+1384:
+  column_code: F3_D20
+  question: 'آیا در طول هفته‌ی گذشته، در جستجوی شغل دیگری بوده‌اید؟ '
+  translation: 'Last week, were you looking for another job? '
+  type: boolean
+  true_condition: 1
+1387:
+  column_code: F3_D24
+  question: 'آیا در طول هفته‌ی گذشته، در جستجوی شغل دیگری بوده‌اید؟ '
+  translation: 'Last week, were you looking for another job? '
+  type: boolean
+  true_condition: 1

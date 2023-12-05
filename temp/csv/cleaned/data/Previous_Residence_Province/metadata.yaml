@@ -1,0 +1,35 @@
+1384:
+  column_code: F2_D13
+  type: category
+  categories:
+    0: Markazi
+    1: Gilan
+    2: Mazandaran
+    3: East_Azerbaijan
+    4: West_Azerbaijan
+    5: Kermanshah
+    6: Khuzestan
+    7: Fars
+    8: Kerman
+    9: Razavi_Khorasan
+    10: Isfahan
+    11: Sistan_and_Baluchestan
+    12: Kurdistan
+    13: Hamadan
+    14: Chaharmahal_and_Bakhtiari
+    15: Lorestan
+    16: Ilam
+    17: Kohgiluyeh_and_Boyer-Ahmad
+    18: Bushehr
+    19: Zanjan
+    20: Semnan
+    21: Yazd
+    22: Hormozgan
+    23: Tehran
+    24: Ardabil
+    25: Qom
+    26: Qazvin
+    27: Golestan
+    28: North_Khorasan
+    29: South_Khorasan
+    30: Alborz

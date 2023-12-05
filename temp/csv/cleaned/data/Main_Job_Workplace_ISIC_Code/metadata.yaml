@@ -1,0 +1,18 @@
+1384:
+  column_code: F3_D07
+  question: 'ویژگی‌ها و فعالیت اصلی محل کار شغل اصلی (کد ISIC محل کار شغل اصلی) '
+  translation: 'Main characteristics and activity of the main job''s workplace (ISIC
+    code of the main job''s workplace) '
+  type: UInt32
+  replace:
+    X000: '000'
+    X0000: '0000'
+1387:
+  column_code: F3_D10
+  question: 'ویژگی‌ها و فعالیت اصلی محل کار شغل اصلی (کد ISIC محل کار شغل اصلی) '
+  translation: 'Main characteristics and activity of the main job''s workplace (ISIC
+    code of the main job''s workplace) '
+  type: UInt32
+  replace:
+    X000: '000'
+    X0000: '0000'

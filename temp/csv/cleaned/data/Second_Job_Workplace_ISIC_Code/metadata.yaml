@@ -1,0 +1,18 @@
+1384:
+  column_code: F3_D23
+  question: 'ویژگی‌ها و فعالیت اصلی محل کار شغل دوم (کد ISIC محل کار شغل دوم) '
+  translation: 'Main characteristics and activity of the second job''s workplace (ISIC
+    code of the second job''s workplace) '
+  type: UInt32
+  replace:
+    X000: '000'
+    X0000: '0000'
+1387:
+  column_code: F3_D29
+  question: 'ویژگی‌ها و فعالیت اصلی محل کار شغل دوم (کد ISIC محل کار شغل دوم) '
+  translation: 'Main characteristics and activity of the second job''s workplace (ISIC
+    code of the second job''s workplace) '
+  type: UInt32
+  replace:
+    X000: '000'
+    X0000: '0000'

@@ -1,0 +1,42 @@
+1384:
+  column_code: F3_D1_16
+  question: 'به چه علت در هفته‌ی گذشته کمتر از حد معمول کار کرده‌اید؟ ۱- تعطیلات یا
+    مرخصی ۲- بیماری، ناتوانی، آسیب‌دیدگی ۳- تحصیلی یا آموزشی ۴- مسائل شخصی یا خانوادگی
+    ۵- پیدا نکردن کار با ساعت بیشتر ۶- تعطیلی محل کار ۷- آغاز یا خاتمه کار ۸- رکود
+    کاری ۹- سایر '
+  translation: 'Why did you work less than usual last week? 1 - Holidays or leave
+    2 - Illness, disability, injury 3 - Education or training 4 - Personal or family
+    issues 5 - Unable to find more work hours 6 - Workplace closed 7 - Starting or
+    ending work 8 - Recession 9 - Other '
+  type: category
+  categories:
+    1: Holidays_or_leave
+    2: Illness
+    3: Education_or_Training
+    4: Personal_Issues
+    5: Unable_to_Find_Hours
+    6: Workplace_Closed
+    7: Starting_or_Ending_Work
+    8: Recession
+    9: Other
+1387:
+  column_code: F3_D19
+  question: 'به چه علت در هفته‌ی گذشته کمتر از حد معمول کار کرده‌اید؟ ۱- تعطیلات یا
+    مرخصی ۲- بیماری، ناتوانی، آسیب‌دیدگی ۳- تحصیلی یا آموزشی ۴- مسائل شخصی یا خانوادگی
+    ۵- پیدا نکردن کار با ساعت بیشتر ۶- تعطیلی محل کار ۷- آغاز یا خاتمه کار ۸- رکود
+    کاری ۹- سایر '
+  translation: 'Why did you work less than usual last week? 1 - Holidays or leave
+    2 - Illness, disability, injury 3 - Education or training 4 - Personal or family
+    issues 5 - Unable to find more work hours 6 - Workplace closed 7 - Starting or
+    ending work 8 - Recession 9 - Other '
+  type: category
+  categories:
+    1: Holidays_or_leave
+    2: Illness
+    3: Education_or_Training
+    4: Personal_Issues
+    5: Unable_to_Find_Hours
+    6: Workplace_Closed
+    7: Starting_or_Ending_Work
+    8: Recession
+    9: Other

@@ -1,0 +1,28 @@
+1384:
+  column_code: F3_D19
+  question: 'از چه طریق می‌خواستید ساعات کار خود را افزایش دهید؟ ۱- اضافه کردن ساعت
+    کار شغل فعلی ۲- پیدا کردن شغل دیگر علاوه بر شغل فعلی ۳- پیدا کردن شغل دیگر با
+    ساعت کار بیشتر به جای شغل فعلی ۴- ترکیبی از موارد فوق '
+  translation: 'How did you want to increase your work hours? 1 - Adding hours to
+    current job 2 - Finding additional job besides current job 3 - Finding new job
+    with more hours instead of current job 4 - Combination of above '
+  type: category
+  categories:
+    1: Add_Hours_to_Current
+    2: Additional_Job
+    3: New_Job_With_More_Hours
+    4: Combination
+1387:
+  column_code: F3_D23
+  question: 'از چه طریق می‌خواستید ساعات کار خود را افزایش دهید؟ ۱- اضافه کردن ساعت
+    کار شغل فعلی ۲- پیدا کردن شغل دیگر علاوه بر شغل فعلی ۳- پیدا کردن شغل دیگر با
+    ساعت کار بیشتر به جای شغل فعلی ۴- ترکیبی از موارد فوق '
+  translation: 'How did you want to increase your work hours? 1 - Adding hours to
+    current job 2 - Finding additional job besides current job 3 - Finding new job
+    with more hours instead of current job 4 - Combination of above '
+  type: category
+  categories:
+    1: Add_Hours_to_Current
+    2: Additional_Job
+    3: New_Job_With_More_Hours
+    4: Combination

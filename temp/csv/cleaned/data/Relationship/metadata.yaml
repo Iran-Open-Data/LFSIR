@@ -1,0 +1,28 @@
+1384:
+  column_code: F2_D03
+  type: category
+  categories:
+    1: Head
+    2: Spouse
+    3: Child
+    4: Child-in-Law
+    5: Grand-Child
+    6: Parent
+    7: Sibling
+    8: Other_Family
+    9: Non-Family
+1387:
+  column_code: F2_D03
+  type: category
+  categories:
+    '1': Head
+    '2': Spouse
+    '3': Child
+    '4': Child-in-Law
+    '5': Grand-Child
+    '6': Parent
+    '7': Sibling
+    '8': Spouse_Parent
+    '9': Spouse_Sibling
+    R: Other_Family
+    B: Non-Family

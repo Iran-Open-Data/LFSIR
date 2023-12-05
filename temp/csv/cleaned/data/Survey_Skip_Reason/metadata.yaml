@@ -1,0 +1,12 @@
+1384:
+  column_code: F2KOL_D21
+  type: category
+  categories:
+    1: Uncooperative
+    2: Absent
+    3: Incapable
+    4: Uninhabitable
+    5: Vacant
+    6: Not_Residence
+    7: Not_Found
+    8: Other_Reasons
