@@ -1,0 +1,56 @@
+site_name: LFSIR
+site_url: https://iran-open-data.github.io/LFSIR/
+repo_url: https://github.com/Iran-Open-Data/LFSIR
+
+theme:
+  name: material
+  features:
+    # - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.sections
+    # - navigation.expand
+    - navigation.indexes
+    # - header.autohide
+    - toc.follow
+    # - toc.integrate
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Home:
+    - README.md
+  # - Usage: usage.md
+  - API Reference:
+    - api/README.md
+    - lfsir.load_table: api/load_table.md
+  - Table Reference:
+    - tables/README.md
+    - Raw Tables: tables/raw/data.md
+    - Cleaned Tables: tables/cleaned/data.md
+
+plugins:
+  - search
+  - autorefs
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          paths: [lfsir]
+          options:
+            docstring_style: numpy
+            show_source: false
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - md_in_html
+  - pymdownx.inlinehilite
