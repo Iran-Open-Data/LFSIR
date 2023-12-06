@@ -1226,7 +1226,7 @@
 
 | Years     | Worked_from_Home_Last_Week              |
 |:----------|:----------------------------------------|
-| 1384-1386 | [](/LFSIR/tables/raw/data#)             |
+| 1384-1386 |                                         |
 | 1387-1401 | [F3_D02](/LFSIR/tables/raw/data#f3_d02) |
 
 
@@ -1324,7 +1324,7 @@
 
 | Years     | Produced_Goods_For_Own_Use_Last_Week    |
 |:----------|:----------------------------------------|
-| 1384-1386 | [](/LFSIR/tables/raw/data#)             |
+| 1384-1386 |                                         |
 | 1387-1401 | [F3_D04](/LFSIR/tables/raw/data#f3_d04) |
 
 
@@ -1369,7 +1369,7 @@
 
 | Years     | Unpaid_Apprenticeship_or_Service_Last_Week   |
 |:----------|:---------------------------------------------|
-| 1384-1386 | [](/LFSIR/tables/raw/data#)                  |
+| 1384-1386 |                                              |
 | 1387-1401 | [F3_D05](/LFSIR/tables/raw/data#f3_d05)      |
 
 
@@ -4163,7 +4163,7 @@
 
 | Years     | Ready_To_Start_Job_If_Found_Last_Week_1   |
 |:----------|:------------------------------------------|
-| 1384-1386 | [](/LFSIR/tables/raw/data#)               |
+| 1384-1386 |                                           |
 | 1387-1401 | [F3_D34](/LFSIR/tables/raw/data#f3_d34)   |
 
 
@@ -5120,7 +5120,7 @@
 
 | Years     | Ready_To_Start_Job_If_Found_Last_Week_2   |
 |:----------|:------------------------------------------|
-| 1384-1386 | [](/LFSIR/tables/raw/data#)               |
+| 1384-1386 |                                           |
 | 1387-1401 | [F3_D45](/LFSIR/tables/raw/data#f3_d45)   |
 
 
@@ -5325,7 +5325,7 @@
 
 | Years     | Preferred_Days_Per_Week                       |
 |:----------|:----------------------------------------------|
-| 1384-1386 | [](/LFSIR/tables/raw/data#)                   |
+| 1384-1386 |                                               |
 | 1387-1401 | [F3_D48ROZ](/LFSIR/tables/raw/data#f3_d48roz) |
 
 
@@ -5369,7 +5369,7 @@
 
 | Years     | Preferred_Hours_Per_Day                         |
 |:----------|:------------------------------------------------|
-| 1384-1386 | [](/LFSIR/tables/raw/data#)                     |
+| 1384-1386 |                                                 |
 | 1387-1401 | [F3_D48SAAT](/LFSIR/tables/raw/data#f3_d48saat) |
 
 
@@ -5827,7 +5827,7 @@
 
 | Years     | Job_Search_Method_None                      |
 |:----------|:--------------------------------------------|
-| 1384-1386 | [](/LFSIR/tables/raw/data#)                 |
+| 1384-1386 |                                             |
 | 1387-1401 | [F3_D9_32](/LFSIR/tables/raw/data#f3_d9_32) |
 
 
@@ -6047,7 +6047,7 @@
 | Years     | Survey_Taken                                  |
 |:----------|:----------------------------------------------|
 | 1384-1400 | [F2KOL_D20](/LFSIR/tables/raw/data#f2kol_d20) |
-| 1401      | [](/LFSIR/tables/raw/data#)                   |
+| 1401      |                                               |
 
 
 #### Summary Statistics
@@ -6100,7 +6100,7 @@
 | Years     | Worked_Nonconventional_Last_Week        |
 |:----------|:----------------------------------------|
 | 1384-1386 | [F3_D02](/LFSIR/tables/raw/data#f3_d02) |
-| 1387-1401 | [](/LFSIR/tables/raw/data#)             |
+| 1387-1401 |                                         |
 
 
 #### Summary Statistics
@@ -6131,7 +6131,7 @@
 | Years     | Wants_To_Have_Job_Or_Occupation         |
 |:----------|:----------------------------------------|
 | 1384-1386 | [F3_D36](/LFSIR/tables/raw/data#f3_d36) |
-| 1387-1401 | [](/LFSIR/tables/raw/data#)             |
+| 1387-1401 |                                         |
 
 
 #### Summary Statistics
@@ -6161,7 +6161,7 @@
 | Years     | Time_Wanting_To_Work_Years                    |
 |:----------|:----------------------------------------------|
 | 1384-1386 | [F3_D37SAL](/LFSIR/tables/raw/data#f3_d37sal) |
-| 1387-1401 | [](/LFSIR/tables/raw/data#)                   |
+| 1387-1401 |                                               |
 
 
 #### Summary Statistics
@@ -6191,7 +6191,7 @@
 | Years     | Time_Wanting_To_Work_Months                   |
 |:----------|:----------------------------------------------|
 | 1384-1386 | [F3_D37MAH](/LFSIR/tables/raw/data#f3_d37mah) |
-| 1387-1401 | [](/LFSIR/tables/raw/data#)                   |
+| 1387-1401 |                                               |
 
 
 #### Summary Statistics
@@ -6224,7 +6224,7 @@
 | Years     | Ready_To_Start_Job_If_Found_Last_Week   |
 |:----------|:----------------------------------------|
 | 1384-1386 | [F3_D40](/LFSIR/tables/raw/data#f3_d40) |
-| 1387-1401 | [](/LFSIR/tables/raw/data#)             |
+| 1387-1401 |                                         |
 
 
 #### Summary Statistics
@@ -6260,9 +6260,9 @@
 
 | Years     | Survey_Skip_Reason                            |
 |:----------|:----------------------------------------------|
-| 1384-1386 | [](/LFSIR/tables/raw/data#)                   |
+| 1384-1386 |                                               |
 | 1387-1400 | [F2KOL_D21](/LFSIR/tables/raw/data#f2kol_d21) |
-| 1401      | [](/LFSIR/tables/raw/data#)                   |
+| 1401      |                                               |
 
 
 #### Summary Statistics
@@ -6314,9 +6314,9 @@
 
 | Years     | Empty_Weight                                      |
 |:----------|:--------------------------------------------------|
-| 1384-1386 | [](/LFSIR/tables/raw/data#)                       |
+| 1384-1386 |                                                   |
 | 1387-1395 | [IW15_YEARLY](/LFSIR/tables/raw/data#iw15_yearly) |
-| 1396-1401 | [](/LFSIR/tables/raw/data#)                       |
+| 1396-1401 |                                                   |
 
 
 #### Summary Statistics
