@@ -15,5 +15,4 @@ fonts/*
 *.log
 *.png
 
-settings.yaml
 *tokens.toml
