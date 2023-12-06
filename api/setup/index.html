@@ -8,25 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://iran-open-data.github.io/LFSIR/tables/">
+        <link rel="canonical" href="https://iran-open-data.github.io/LFSIR/api/setup/">
       
       
-        <link rel="prev" href="../api/add_attribute/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="raw/data/">
+        <link rel="next" href="../setup_config/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
     
     
       
-        <title>Tables - LFSIR</title>
+        <title>lfsir.setup - LFSIR</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.fad675c6.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.fad675c6.min.css">
       
       
 
@@ -45,9 +45,9 @@
       
     
     
-      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#tables" class="md-skip">
+        <a href="#lfsir.api.setup" class="md-skip">
           Skip to content
         </a>
       
@@ -85,7 +85,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="LFSIR" class="md-header__button md-logo" aria-label="LFSIR" data-md-component="logo">
+    <a href="../.." title="LFSIR" class="md-header__button md-logo" aria-label="LFSIR" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Tables
+              lfsir.setup
             
           </span>
         </div>
@@ -189,7 +189,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="LFSIR" class="md-nav__button md-logo" aria-label="LFSIR" data-md-component="logo">
+    <a href="../.." title="LFSIR" class="md-nav__button md-logo" aria-label="LFSIR" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -242,7 +242,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href=".." class="md-nav__link ">
+            <a href="../.." class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -274,6 +274,8 @@
       
   
   
+    
+  
   
   
     
@@ -296,17 +298,17 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../api/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -323,7 +325,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             API Reference
@@ -336,8 +338,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -349,12 +353,12 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -368,7 +372,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Setup Functions
@@ -379,10 +383,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../api/setup/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -391,6 +404,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -403,7 +417,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../api/setup_config/" class="md-nav__link">
+      <a href="../setup_config/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -473,7 +487,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../api/load_table/" class="md-nav__link">
+      <a href="../load_table/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -543,7 +557,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../api/add_attribute/" class="md-nav__link">
+      <a href="../add_attribute/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -576,8 +590,6 @@
       
   
   
-    
-  
   
   
     
@@ -598,17 +610,17 @@
       
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../../tables/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -619,13 +631,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_3" id="__nav_3_label" tabindex="">
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Table Reference
@@ -641,7 +653,7 @@
   
   
     <li class="md-nav__item">
-      <a href="raw/data/" class="md-nav__link">
+      <a href="../../tables/raw/data/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -662,7 +674,7 @@
   
   
     <li class="md-nav__item">
-      <a href="cleaned/data/" class="md-nav__link">
+      <a href="../../tables/cleaned/data/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -703,212 +715,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#question-flow" class="md-nav__link">
-    <span class="md-ellipsis">
-      Question Flow
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Question Flow">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1384-1387" class="md-nav__link">
-    <span class="md-ellipsis">
-      1384 - 1387
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="1384 - 1387">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#a-employment-status" class="md-nav__link">
-    <span class="md-ellipsis">
-      A. Employment Status
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#b-main-job" class="md-nav__link">
-    <span class="md-ellipsis">
-      B. Main Job
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#c-work-hours" class="md-nav__link">
-    <span class="md-ellipsis">
-      C. Work Hours
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#d-increase-work" class="md-nav__link">
-    <span class="md-ellipsis">
-      D. Increase Work
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#e-second-job" class="md-nav__link">
-    <span class="md-ellipsis">
-      E. Second Job
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#f-previous-work" class="md-nav__link">
-    <span class="md-ellipsis">
-      F. Previous Work
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#g-job-search" class="md-nav__link">
-    <span class="md-ellipsis">
-      G. Job Search
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#h-desired-job" class="md-nav__link">
-    <span class="md-ellipsis">
-      H. Desired Job
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#1388-1401" class="md-nav__link">
-    <span class="md-ellipsis">
-      1388 - 1401
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="1388 - 1401">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#overview_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#a-employment-status_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      A. Employment Status
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#b-main-job_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      B. Main Job
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#c-work-hours_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      C. Work Hours
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#d-increase-work_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      D. Increase Work
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#e-second-job_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      E. Second Job
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fg-job-search-and-previous-work" class="md-nav__link">
-    <span class="md-ellipsis">
-      F&amp;G. Job Search and Previous Work
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#h-desired-job_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      H. Desired Job
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -925,283 +731,147 @@
   
 
 
-<h1 id="tables">Tables</h1>
-<h2 id="question-flow">Question Flow</h2>
-<h3 id="1384-1387">1384 - 1387</h3>
-<h4 id="overview">Overview</h4>
-<pre class="mermaid"><code>---
-title: Overview
----
-graph TD
-    A --&gt; |q1-q4=No| F
-    A --&gt; |else| B
-    B --&gt; C
-    C --&gt; D
-    D --&gt; |q6=Yes| E
-    D --&gt; |q6=No| End
-    E --&gt; End
-    F --&gt; G
-    G --&gt; H
-    H --&gt; End</code></pre>
-<h4 id="a-employment-status">A. Employment Status</h4>
-<p>Employment status during the past week</p>
-<pre class="mermaid"><code>---
-title: A
----
-graph TD
-    1 --&gt; |Yes| 6
-    1 --&gt; |No| 2
-    2 --&gt; |Yes| 6
-    2 --&gt; |No| 3
-    3 --&gt; |Yes| 6
-    3 --&gt; |No| 4
-    4 --&gt; |Yes| 5
-    4 --&gt; |No| F
-    5 --&gt; 6
-    6 --&gt; B</code></pre>
-<h4 id="b-main-job">B. Main Job</h4>
-<p>Characteristics of main job</p>
-<pre class="mermaid"><code>---
-title: B
----
-graph TD
-    A --&gt; 7
-    7 --&gt; 8
-    8 --&gt; 9
-    9 --&gt; 10
-    10 --&gt; 11
-    11 --&gt; 12
-    12 --&gt; 12.1
-    12.1 --&gt; 13[C]</code></pre>
-<h4 id="c-work-hours">C. Work Hours</h4>
-<p>Hours worked for all jobs</p>
-<pre class="mermaid"><code>---
-title: C
----
-graph TD
-    B --&gt; 13
-    13 --&gt; |&lt; 44 h| 14
-    13 --&gt; |&gt;= 44 h| 15
-    14 --&gt; 15
-    15 --&gt; |q13&gt;q15| 16.1
-    15 --&gt; |q15&gt;q13| 16.2
-    15 --&gt; |q15=q13| 17[D]
-    16.1 --&gt; 17
-    16.2 --&gt; 17</code></pre>
-<h4 id="d-increase-work">D. Increase Work</h4>
-<p>Willingness to increase hours worked and search for another job</p>
-<pre class="mermaid"><code>---
-title: D
----
-graph TD
-    17 --&gt; |Yes| 18
-    17 --&gt; |No| 20
-    18 --&gt; |Yes| 19
-    18 --&gt; |No| 20
-    19 --&gt; 20
-    20 --&gt; |Yes| 21
-    20 --&gt; |No| 22
-    21 --&gt; 21.1
-    21.1 --&gt; 22
-    22 --&gt; |q6=No| End
-    22 --&gt; |q6=Yes| 23[E]</code></pre>
-<h4 id="e-second-job">E. Second Job</h4>
-<p>Characteristics of second job</p>
-<pre class="mermaid"><code>---
-title: E
----
-graph TD
-    D --&gt; |q6=Yes| 23
-    23 --&gt; 24
-    24 --&gt; 25
-    25 --&gt; End</code></pre>
-<h4 id="f-previous-work">F. Previous Work</h4>
-<p>Previous work experience</p>
-<pre class="mermaid"><code>---
-title: F
----
-graph TD
-    A --&gt; |q1-q4=No| 26
-    26 --&gt; |Yes| 27
-    26 --&gt; |No| 32[G]
-    27 --&gt; 28
-    28 --&gt; 29
-    29 --&gt; 30
-    30 --&gt; 31
-    31 --&gt; 32</code></pre>
-<h4 id="g-job-search">G. Job Search</h4>
-<p>Job search</p>
-<pre class="mermaid"><code>---
-title: G
----
-graph TD
-    F --&gt; 32
-    32 --&gt; |Yes| 33
-    32 --&gt; |No| 35
-    33 --&gt; 34
-    34 --&gt; 38
-    35 --&gt; 36
-    36 --&gt; |Yes| 37
-    36 --&gt; |No| 41.1
-    37 --&gt; 38
-    38 --&gt; 38.1
-    38.1 --&gt; 39
-    39 --&gt; 40
-    40 --&gt; |Yes| 42[H]
-    40 --&gt; |No| 41
-    41 --&gt; 41.1 --&gt; End</code></pre>
-<h4 id="h-desired-job">H. Desired Job</h4>
-<p>Characteristics of desired job</p>
-<pre class="mermaid"><code>---
-title: H
----
-graph TD
-    G --&gt; 42
-    42 --&gt; 43
-    43 --&gt; End</code></pre>
-<h3 id="1388-1401">1388 - 1401</h3>
-<h4 id="overview_1">Overview</h4>
-<pre class="mermaid"><code>---
-title: Overview
----
-graph TD
-    A --&gt; |q1-q6=No| F
-    A --&gt; |else| B
-    B --&gt; C
-    C --&gt; D
-    D --&gt; |q8=Yes| E
-    D --&gt; |q8=No| End
-    E --&gt; End
-    F --&gt; G
-    G --&gt; H
-    H --&gt; End</code></pre>
-<h4 id="a-employment-status_1">A. Employment Status</h4>
-<p>Employment status during the past week</p>
-<pre class="mermaid"><code>---
-title: A
----
-graph TD
-    1 --&gt; |Yes| 8
-    1 --&gt; |No| 2
-    2 --&gt; |Yes| 8
-    2 --&gt; |No| 3
-    3 --&gt; |Yes| 8
-    3 --&gt; |No| 4
-    4 --&gt; |Yes| 8
-    4 --&gt; |No| 5
-    5 --&gt; |Yes| 8
-    5 --&gt; |No| 6
-    6 --&gt; |Yes| 7
-    6 --&gt; |No| 31[F]
-    7 --&gt; 8
-    8 --&gt; 9[B]</code></pre>
-<h4 id="b-main-job_1">B. Main Job</h4>
-<p>Characteristics of main job</p>
-<pre class="mermaid"><code>---
-title: B
----
-graph TD
-    A --&gt; 9
-    9 --&gt; 10
-    10 --&gt; 11
-    11 --&gt; 12
-    12 --&gt; 13
-    13 --&gt; 14
-    14 --&gt; 15
-    15 --&gt; 16[C]</code></pre>
-<h4 id="c-work-hours_1">C. Work Hours</h4>
-<p>Hours worked for all jobs</p>
-<pre class="mermaid"><code>---
-title: C
----
-graph TD
-    B --&gt; 16
-    16 --&gt; |&lt; 44 h| 17
-    16 --&gt; |&gt;= 44 h| 18
-    17 --&gt; 18
-    18 --&gt; |q13&gt;q15| 19
-    18 --&gt; |q15&gt;q13| 20
-    18 --&gt; |q15=q13| 21[D]
-    19 --&gt; 21
-    20 --&gt; 21</code></pre>
-<h4 id="d-increase-work_1">D. Increase Work</h4>
-<p>Willingness to increase hours worked and search for another job</p>
-<pre class="mermaid"><code>---
-title: D
----
-graph TD
-    21 --&gt; |Yes| 22
-    21 --&gt; |No| 24
-    22 --&gt; |Yes| 23
-    22 --&gt; |No| 24
-    23 --&gt; 24
-    24 --&gt; |Yes| 25
-    24 --&gt; |No| 27
-    25 --&gt; 26
-    26 --&gt; 27
-    27 --&gt; |q8=No| End
-    27 --&gt; |q8=Yes| 28[E]</code></pre>
-<h4 id="e-second-job_1">E. Second Job</h4>
-<p>Characteristics of second job</p>
-<pre class="mermaid"><code>---
-title: E
----
-graph TD
-    D --&gt; |q8=Yes| 28
-    28 --&gt; 29
-    29 --&gt; 30
-    30 --&gt; End</code></pre>
-<h4 id="fg-job-search-and-previous-work">F&amp;G. Job Search and Previous Work</h4>
-<p>Job search and Previous work experience</p>
-<pre class="mermaid"><code>---
-title: F &amp; G
----
-flowchart TB
-    subgraph F
-        direction TB
-        A --&gt; |q1-q6=No| 31
-        31 --&gt; |Yes| 32
-        31 --&gt; |No| 33
-        32 --&gt; |else| 34
-        32 --&gt; |no action| 33
-        33 --&gt; |1,2| 34
-        34 --&gt; |Yes| 35
-        35 --&gt; 36
-        36 --&gt; |1| 37
-        36 --&gt; |2-6| 39
-        37 --&gt; 38
-        38 --&gt; 39
-    end
+<div class="doc doc-object doc-function">
 
-    39 --&gt; |No| H
 
-    subgraph G
-        direction TB
-        33 --&gt; |3-7| 45
-        33 --&gt; |8-12| 47
-        39 --&gt; |Yes| 40
-        40 --&gt; 41
-        41 --&gt; 42
-        42 --&gt; 43
-        43 --&gt; 44
-        45 --&gt; |No| 46
-        34 --&gt; |No| 46
-        45 --&gt; |Yes| 47
-        46 --&gt; 47
-    end
-    44 --&gt; H
-    H --&gt; End
-    47 --&gt; End</code></pre>
-<h4 id="h-desired-job_1">H. Desired Job</h4>
-<p>Characteristics of desired job</p>
-<pre class="mermaid"><code>---
-title: H
----
-graph TD
-    G --&gt; 48
-    48 --&gt; 49
-    49 --&gt; 50
-    50 --&gt; End</code></pre>
+
+
+<h1 id="lfsir.api.setup" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">lfsir</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">setup</span></code>
+
+</h1>
+
+
+  <div class="doc doc-contents first">
+  
+      <p>Set up package data for the given years.</p>
+<p>This function handles downloading or generating the required data tables
+to enable full functionality of the package for the specified years.</p>
+<p>By default, it tries to download pre-cleaned data which allows the package
+to work out of the box. But advanced users can generate data locally
+from raw survey files for more control, transparency or customization.</p>
+
+
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>years</code></td>
+          <td>
+                <code><span title="bssir.metadata_reader._Years">_Years</span></code>
+          </td>
+          <td>
+            <div class="doc-md-description">
+              <p>The years of data to set up.</p>
+            </div>
+          </td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+
+
+  <p><strong>Other Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>replace</code></td>
+          <td>
+                <code>bool</code>
+          </td>
+          <td>
+            <div class="doc-md-description">
+              <p>Whether to re-download or re-generate data if it already exists.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td><code>method</code></td>
+          <td>
+                <code>(create_from_raw, download_cleaned)</code>
+          </td>
+          <td>
+            <div class="doc-md-description">
+              <p>The method to use for setting up data.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td><code>download_source</code></td>
+          <td>
+                <code>(original, mirror)</code>
+          </td>
+          <td>
+            <div class="doc-md-description">
+              <p>Where to download data from.</p>
+            </div>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+                <code>None</code>
+          </td>
+          <td>
+            <div class="doc-md-description">
+              <p>The function executes setup tasks but does not return anything.</p>
+            </div>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+
+
+<p><strong>Examples:</strong></p>
+    <p>Basic usage:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span> <span class="nn">lfsir</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="n">lfsir</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">years</span><span class="o">=</span><span class="s2">&quot;1390-1400&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<p>Advanced usage:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">lfsir</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">years</span><span class="o">=</span><span class="s2">&quot;1390-1400&quot;</span><span class="p">,</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>           <span class="n">method</span><span class="o">=</span><span class="s2">&quot;create_from_raw&quot;</span><span class="p">,</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>           <span class="n">replace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span></code></pre></div>
+<p>This will recreate all tables from 1390 to 1400 from raw data even if they
+already exist.</p>
+
+  </div>
+
+</div>
 
 
 
@@ -1246,10 +916,10 @@ graph TD
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.indexes", "toc.follow", "navigation.top", "content.code.copy", "content.code.annotate"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.indexes", "toc.follow", "navigation.top", "content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      <script src="../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
       
     
   </body>
