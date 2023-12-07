@@ -9,7 +9,7 @@ theme:
     # - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.sections
-    # - navigation.expand
+    - navigation.expand
     - navigation.indexes
     # - header.autohide
     - toc.follow
@@ -17,6 +17,7 @@ theme:
     - navigation.top
     - content.code.copy
     - content.code.annotate
+    - content.tooltips
 
 nav:
   - Home:
@@ -31,8 +32,12 @@ nav:
       - lfsir.load_table: api/load_table.md
     - Data Addition Functions:
       - lfsir.add_attribute: api/add_attribute.md
-  - Table Reference:
+  - Data Reference:
     - tables/README.md
+    - Questions:
+      - Form 3:
+        - "1384 - 1386": tables/form3_1384.md
+        - "1387 - now": tables/form3_1387.md
     - Raw Data: tables/raw/data.md
     - Cleaned Data: tables/cleaned/data.md
 
@@ -49,6 +54,7 @@ plugins:
             show_source: false
 
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
   - pymdownx.details
