@@ -22,7 +22,9 @@ theme:
 nav:
   - Home:
     - README.md
-  # - Usage: usage.md
+  - Usage:
+    - usage/README.md
+    - usage/basic.py
   - API Reference:
     - api/README.md
     - Setup Functions:
@@ -35,6 +37,7 @@ nav:
   - Data Reference:
     - tables/README.md
     - Questions:
+      - Form 2: tables/form2.md
       - Form 3:
         - "1384 - 1386": tables/form3_1384.md
         - "1387 - now": tables/form3_1387.md
@@ -44,6 +47,8 @@ nav:
 plugins:
   - search
   - autorefs
+  - mkdocs-jupyter:
+      execute: true
   - mkdocstrings:
       default_handler: python
       handlers:

@@ -104,15 +104,10 @@ def load_table(
 
     Examples
     --------
-        >>> import lfsir
-        >>> df = lfsir.load_table("data", 1400) # Loads survey data for year 1400
-        >>> df.iloc[:5, :5]
-               ID  Census_Turn  Alternative_Household  Survey_Taken Survey_Skip_Reason
-        0  100141            4                  False          True               None
-        1  100141            4                  False          True               None
-        2  100142            3                  False          True               None
-        3  100142            3                  False          True               None
-        4  100142            3                  False          True               None
+    ``` python
+    import lfsir
+    table = lfsir.load_table("data", 1400) # Loads survey data for year 1400
+    ```
 
     """
 

@@ -19,6 +19,7 @@ mkdocs-material = "*"
 mkdocs-literate-nav = "*"
 mkdocs-autorefs = "*"
 mkdocstrings-python = "*"
+mkdocs-jupyter = "*"
 pytest = "*"
 
 [build-system]
