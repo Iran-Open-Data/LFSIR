@@ -4,7 +4,7 @@
 # pylint: disable=unused-argument
 # pylint: disable=too-many-locals
 
-from typing import Iterable
+from typing import Any, Iterable
 from pathlib import Path
 from typing import Literal
 
@@ -12,6 +12,7 @@ import pandas as pd
 
 from bssir.metadata_reader import config, _Years
 from bssir.api import API
+
 
 defaults, metadata = config.set_package_config(Path(__file__).parent)
 api = API(defaults=defaults, metadata=metadata)
@@ -117,6 +118,10 @@ def load_table(
 
     parameters = __get_optional_params(locals())
     return api.load_table(**parameters)
+
+
+def load_knowledge(name: str, years: _Years) -> Any:
+    return api.load_knowledge(name=name, years=years)
 
 
 def add_attribute(
