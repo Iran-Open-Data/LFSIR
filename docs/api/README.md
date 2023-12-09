@@ -6,10 +6,11 @@
     - [ ] [setup_metadata]()
 - [ ] Data Loading Functions
     - [x] [load_table](./load_table.md)
+    - [x] [load_knowledge](./load_knowledge.md)
     - [ ] [create_table_with_schema]()
     - [ ] [load_external_table]()
-- [ ] Data Addition Function
+- [x] Data Addition Function
     - [x] [add_attribute](./add_attribute.md)
-    - [ ] [add_classification]()
+    - [x] [add_classification](./add_classification.md)
 - [ ] Analitical Functions
-    - [ ] [calculate_weighted_avarage]()
+    - [ ] [calculate_weighted_average]()

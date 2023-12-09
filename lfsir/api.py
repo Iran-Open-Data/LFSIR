@@ -1,4 +1,9 @@
 """LFSIR, Labor Force Survey of Iran, Main API
+
+This module provides a high-level API for accessing and analyzing data from the
+Labor Force Survey of Iran (LFSIR). It simplifies data loading, exploration,
+and analysis for users without extensive programming knowledge.
+
 """
 # pylint: disable=too-many-arguments
 # pylint: disable=unused-argument
@@ -115,7 +120,29 @@ def load_table(
     return api.load_table(**parameters)
 
 
-def load_knowledge(name: str, years: _Years) -> Any:
+def load_knowledge(name: str, years: _Years = "last") -> Any:
+    """Retrieve tables and graphs stored in the library's Knowledge Base.
+
+    This function allows users to access valuable information, including tables and
+    graphs, created from survey data and drawn from associated articles and reports.
+    The data is pre-processed, organized, and readily available in the library's
+    Knowledge Base, reducing the necessity for extensive data processing.
+
+
+    Parameters
+    ----------
+    name : str
+        The name of artifact requested.
+
+    years : _Years, default "last"
+        The years for which knowledge data is requested.
+
+    Returns
+    -------
+    Any
+        The requested knowledge data, which includes tables, graphs, or other informative content.
+
+    """
     return api.load_knowledge(name=name, years=years)
 
 
@@ -168,7 +195,7 @@ def add_attribute(
     --------
     ``` python
     import lfsir
-    table = lfsir.load_table(year=1401)
+    table = lfsir.load_table(years=1401)
     table = add_attribute(table, "Urban_Rural")
     table = add_attribute(table, "Province", aspects="farsi_name")
     ```
@@ -180,13 +207,56 @@ def add_attribute(
 
 def add_classification(
     table: pd.DataFrame,
-    target: str | None = None,
+    target: str,
     *,
     aspects: Iterable[str] | str | None = None,
     levels: Iterable[int] | int | None = None,
     column_names: Iterable[str] | str | None = None,
     year_col: str | None = None,
 ) -> pd.DataFrame:
+    """Add industry or occupation classification to table.
+
+    This function takes a Pandas DataFrame containing ISIC industry codes
+    or ISCO occupation codes, and enriches it by decoding these codes into
+    descriptive categories.
+
+    The output DataFrame will contain additional columns with attributes
+    from the classification system at the specified hierarchical levels,
+    providing more information alongside the original coded values.
+
+    Parameters
+    ----------
+    table : pd.DataFrame
+        Input DataFrame containing the classification code column.
+    target : str
+        Name of the column containing industry or occupation codes.
+
+    Other parameters
+    ----------------
+    aspects : list of str, optional
+        Classification aspects to add as columns, like "label", "farsi_label".
+    levels : list of int, optional
+        Hierarchy levels to include, like 1 or [1, 2].
+    column_names : list of str, optional
+        Custom names to use for the added columns.
+    year_col : str, default "Year"
+        Name of year column for resolving annual changes.
+
+    Returns
+    -------
+    pd.DataFrame
+        Input DataFrame with additional columns containing classification
+            attributes.
+
+    Examples
+    --------
+    ```python
+    import lfsir
+    table = lfsir.load_table(years=1401)
+    table = add_classification(table, target="Main_Job_Workplace_ISIC_Code")
+    ```
+
+    """
     parameters = __get_optional_params(locals())
     return api.add_classification(**parameters)
 
