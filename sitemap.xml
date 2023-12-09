@@ -2,72 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/api/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/api/add_attribute/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://iran-open-data.github.io/LFSIR/api/add_classification/</loc>
+         <lastmod>2023-12-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://iran-open-data.github.io/LFSIR/api/load_knowledge/</loc>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/api/load_table/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/api/setup/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/api/setup_config/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://iran-open-data.github.io/LFSIR/knowledge/</loc>
+         <lastmod>2023-12-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://iran-open-data.github.io/LFSIR/knowledge/sci_results/</loc>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/tables/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/tables/form2/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/tables/form3_1384/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/tables/form3_1387/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/tables/cleaned/data/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/tables/raw/data/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/usage/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/LFSIR/usage/basic/</loc>
-         <lastmod>2023-12-08</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
