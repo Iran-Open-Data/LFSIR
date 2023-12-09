@@ -178,6 +178,19 @@ def add_attribute(
     return api.add_attribute(**parameters)
 
 
+def add_classification(
+    table: pd.DataFrame,
+    target: str | None = None,
+    *,
+    aspects: Iterable[str] | str | None = None,
+    levels: Iterable[int] | int | None = None,
+    column_names: Iterable[str] | str | None = None,
+    year_col: str | None = None,
+) -> pd.DataFrame:
+    parameters = __get_optional_params(locals())
+    return api.add_classification(**parameters)
+
+
 def setup(
     years: _Years,
     *,

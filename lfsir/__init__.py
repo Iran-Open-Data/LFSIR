@@ -1,9 +1,17 @@
-from .api import setup, setup_config, load_table, add_attribute, load_knowledge
+from .api import (
+    load_table,
+    load_knowledge,
+    add_attribute,
+    add_classification,
+    setup,
+    setup_config,
+)
 
 __all__ = [
     "load_table",
     "load_knowledge",
     "add_attribute",
+    "add_classification",
     "setup",
     "setup_config",
 ]
