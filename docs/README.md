@@ -7,3 +7,4 @@ LFSIR handles all the complexity of finding, downloading, cleaning, and
 standardizing the raw survey data. It allows you to seamlessly load LFS 
 tables into Pandas dataframes for analysis.
 
+[See how it works!](./usage/basic.py){ .md-button .md-button--primary }

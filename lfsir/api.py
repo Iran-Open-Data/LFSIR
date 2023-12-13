@@ -132,7 +132,6 @@ def load_knowledge(name: str, years: _Years = "last") -> Any:
     ----------
     name : str
         The name of artifact requested.
-
     years : _Years, default "last"
         The years for which knowledge data is requested.
 

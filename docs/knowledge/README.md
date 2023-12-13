@@ -1,5 +1,23 @@
 # Knowledge Base
 
+The ILFS library contains a wealth of pre-processed insights and information on 
+the Iran Labor Force Survey data, available through the 
+[load_knowledge()](../api/load_knowledge.md) function.  
+This Knowledge Base serves as a convenient way to access analyzed survey data 
+without needing to process the raw datasets yourself.
+
+The Knowledge Base contains valuable artifacts like:
+
+- Tables - Pre-made summary tables created from the survey data, covering topics 
+  like employment statistics, labor participation over time, income distribution, 
+  and more. Tables are available in Pandas DataFrame format for easy analysis.
+- Graphs & Plots - Pre-made visualizations like time-series trends, geographic 
+  comparisons, demographic breakdowns, and more. Plots are available as 
+  Matplotlib, Seaborn, Plotly, and other common Python plot types.
+
+And more. The available artifacts grow over time as more ILFS data is processed 
+and published.
+
 ## SCI Results
 
 ??? Availability

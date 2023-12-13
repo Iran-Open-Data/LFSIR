@@ -4,6 +4,24 @@ repo_url: https://github.com/Iran-Open-Data/LFSIR
 
 theme:
   name: material
+  icon:
+    logo: fontawesome/solid/helmet-safety
+  favicon: assets/images/helmet-safety-solid.svg
+
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
   features:
     # - navigation.tracking
     - navigation.tabs
@@ -18,12 +36,16 @@ theme:
     - content.code.annotate
     - content.tooltips
 
+    - content.tabs.link
+
 nav:
   - Home:
     - README.md
   - Usage:
     - usage/README.md
+    - usage/installation.md
     - usage/basic.py
+
   - API Reference:
     - api/README.md
     - Setup Functions:
@@ -83,3 +105,5 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true

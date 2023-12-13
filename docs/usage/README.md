@@ -1,3 +1,4 @@
 # Usage
 
-- [Basic Usage](./basic.py)
+- [Installation](./installation.md)
+- [Getting Started](./basic.py)

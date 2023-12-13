@@ -1,7 +1,7 @@
-# # Basic Usage
+# # Getting Started
 #
 # The LFSIR package provides easy access to Iran's Labor Force Survey data.
-# We can load the raw survey tables and enrich them with additional informations.
+# We can load the survey tables and enrich them with additional informations.
 
 import lfsir
 

@@ -787,7 +787,7 @@
         14: Chaharmahal_and_Bakhtiari
         15: Lorestan
         16: Ilam
-        17: Kohgiluyeh_and_Boyer-Ahmad
+        17: Kohgiluyeh_and_Boyer_Ahmad
         18: Bushehr
         19: Zanjan
         20: Semnan
@@ -857,7 +857,7 @@
 | 14 | Chaharmahal_and_Bakhtiari  |
 | 15 | Lorestan                   |
 | 16 | Ilam                       |
-| 17 | Kohgiluyeh_and_Boyer-Ahmad |
+| 17 | Kohgiluyeh_and_Boyer_Ahmad |
 | 18 | Bushehr                    |
 | 19 | Zanjan                     |
 | 20 | Semnan                     |
@@ -1217,7 +1217,9 @@
       question: 'در طول هفته‌ی گذشته در محل سکونت به منظور کسب سود یا درآمد (نقدی یا غیر
         نقدی) حداقل یک ساعت، کاری انجام داده‌اید؟ کارهایی نظیر قالیبافی، خیاطی، آرایشگری،
         تایپ، تدریس خصوصی و مانند آن. '
-      translation: ''
+      translation: 'Last week, did you spend at least 1 hour working from home for profit
+        (cash or non-cash)? Such as rug weaving, sewing, hairdressing, typing, private
+        tutoring, etc. '
       type: boolean
       true_condition: 1
     
@@ -1458,18 +1460,20 @@
     ``` yaml
     1384:
       column_code: F3_D05
-      question: 'علت اصلی غیبت موقت شما از کار در طول هفته‌ی گذشته چه بوده است؟ فصلی بودن
-        کار (برای افراد خود اشتغال در مشاغل کشاورزی نظیر زراعت، باغداری، دامداری ماهیگیری
-        و ...) تعطیلی محل کار، تغییرات موقت سازمانی یا خرابی دستگاه‌ها و ماشین آلات نداشتن
-        مشتری یا سفارش تعلیق موقت از کار (با داشتن پیوند رسمی شغلی) نوبتی بودن کار بیماری
-        یا آسیب دیدگی موقت تعطیلات یا انواع مرخصی تحصیل یا آموزش مسائل شخصی و خانوادگی
-        شرایط جوی نامساعد سایر (با ذکر علت) '
+      question: 'علت اصلی غیبت موقت شما از کار در طول هفته‌ی گذشته چه بوده است؟ ۱ - فصلی
+        بودن کار (برای افراد خود اشتغال در مشاغل کشاورزی نظیر زراعت،  باغداری، دامداری
+        ماهیگیری و ...) ۲ - تعطیلی محل کار، تغییرات موقت سازمانی یا خرابی دستگاه‌ها و  ماشین
+        آلات ۳ - نداشتن مشتری یا سفارش ۴ - تعلیق موقت از کار (با داشتن پیوند رسمی شغلی)
+        ۵ - نوبتی بودن کار ۶ - بیماری یا آسیب دیدگی موقت ۷ - تعطیلات یا انواع مرخصی ۸
+        - تحصیل یا آموزش ۹ - مسائل شخصی و خانوادگی ۱۰ - شرایط جوی نامساعد ۱۱ - سایر (با
+        ذکر علت) '
       translation: 'What was the main reason for your temporary absence from work last
-        week? Seasonal work (for self-employed in agriculture like farming, gardening,
-        livestock, fishing, etc) Workplace closed, temporary organizational changes or
-        machine breakdowns No customers or orders Temporary layoff (while still officially
-        employed) Shift work Temporary illness or injury Holidays or leave Education or
-        training Personal or family issues Adverse weather conditions Other (specify reason) '
+        week? 1 - Seasonal work (for self-employed in agriculture like farming,  gardening,
+        livestock, fishing, etc) 2 - Workplace closed, temporary organizational changes
+        or machine  breakdowns 3 - No customers or orders 4 - Temporary layoff (while
+        still officially employed) 5 - Shift work 6 - Temporary illness or injury 7 -
+        Holidays or leave 8 - Education or training 9 - Personal or family issues 10 -
+        Adverse weather conditions 11 - Other (specify reason) '
       type: category
       categories:
         1: Seasonal
@@ -1488,18 +1492,20 @@
         '12': null
     1387:
       column_code: F3_D07
-      question: 'علت اصلی غیبت موقت شما از کار در طول هفته‌ی گذشته چه بوده است؟ فصلی بودن
-        کار (برای افراد خود اشتغال در مشاغل کشاورزی نظیر زراعت، باغداری، دامداری ماهیگیری
-        و ...) تعطیلی محل کار، تغییرات موقت سازمانی یا خرابی دستگاه‌ها و ماشین آلات نداشتن
-        مشتری یا سفارش تعلیق موقت از کار (با داشتن پیوند رسمی شغلی) نوبتی بودن کار بیماری
-        یا آسیب دیدگی موقت تعطیلات یا انواع مرخصی تحصیل یا آموزش مسائل شخصی و خانوادگی
-        شرایط جوی نامساعد سایر (با ذکر علت) '
+      question: 'علت اصلی غیبت موقت شما از کار در طول هفته‌ی گذشته چه بوده است؟ ۱ - فصلی
+        بودن کار (برای افراد خود اشتغال در مشاغل کشاورزی نظیر زراعت،  باغداری، دامداری
+        ماهیگیری و ...) ۲ - تعطیلی محل کار، تغییرات موقت سازمانی یا خرابی دستگاه‌ها و  ماشین
+        آلات ۳ - نداشتن مشتری یا سفارش ۴ - تعلیق موقت از کار (با داشتن پیوند رسمی شغلی)
+        ۵ - نوبتی بودن کار ۶ - بیماری یا آسیب دیدگی موقت ۷ - تعطیلات یا انواع مرخصی ۸
+        - تحصیل یا آموزش ۹ - مسائل شخصی و خانوادگی ۱۰ - شرایط جوی نامساعد ۱۱ - سایر (با
+        ذکر علت) '
       translation: 'What was the main reason for your temporary absence from work last
-        week? Seasonal work (for self-employed in agriculture like farming, gardening,
-        livestock, fishing, etc) Workplace closed, temporary organizational changes or
-        machine breakdowns No customers or orders Temporary layoff (while still officially
-        employed) Shift work Temporary illness or injury Holidays or leave Education or
-        training Personal or family issues Adverse weather conditions Other (specify reason) '
+        week? 1 - Seasonal work (for self-employed in agriculture like farming,  gardening,
+        livestock, fishing, etc) 2 - Workplace closed, temporary organizational changes
+        or machine  breakdowns 3 - No customers or orders 4 - Temporary layoff (while
+        still officially employed) 5 - Shift work 6 - Temporary illness or injury 7 -
+        Holidays or leave 8 - Education or training 9 - Personal or family issues 10 -
+        Adverse weather conditions 11 - Other (specify reason) '
       type: category
       categories:
         1: Seasonal
@@ -1792,12 +1798,12 @@
     ``` yaml
     1384:
       column_code: F3_D09
-      question: 'وضع شغلی در شغل اصلی کارفرما کارکن مستقل کارکن فامیلی بدون مزد مزد و
-        حقوق بگیر بخش خصوصی مزد و حقوق بگیر بخش عمومی مزد و حقوق بگیر بخش تعاونی کارآموز
-        با مزد کارآموز بدون مزد '
-      translation: 'Employment status in main job: Employer Self-employed worker Unpaid
-        family worker Private sector employee Public sector employee Cooperative sector
-        employee Paid apprentice Unpaid apprentice '
+      question: 'وضع شغلی در شغل اصلی ۱ - کارفرما ۲ - کارکن مستقل ۳ - کارکن فامیلی بدون
+        مزد ۴ - مزد و حقوق بگیر بخش خصوصی ۵ - مزد و حقوق بگیر بخش عمومی ۶ - مزد و حقوق
+        بگیر بخش تعاونی ۷ - کارآموز با مزد ۸ - کارآموز بدون مزد '
+      translation: 'Employment status in main job: 1 - Employer 2 - Self-employed worker
+        3 - Unpaid family worker 4 - Private sector employee 5 - Public sector employee
+        6 - Cooperative sector employee 7 - Paid apprentice 8 - Unpaid apprentice '
       type: category
       categories:
         1: Employer
@@ -1810,12 +1816,12 @@
         8: Unpaid_Apprentice
     1387:
       column_code: F3_D11
-      question: 'وضع شغلی در شغل اصلی کارفرما کارکن مستقل کارکن فامیلی بدون مزد مزد و
-        حقوق بگیر بخش خصوصی مزد و حقوق بگیر بخش عمومی مزد و حقوق بگیر بخش تعاونی کارآموز
-        با مزد کارآموز بدون مزد '
-      translation: 'Employment status in main job: Employer Self-employed worker Unpaid
-        family worker Private sector employee Public sector employee Cooperative sector
-        employee Paid apprentice Unpaid apprentice '
+      question: 'وضع شغلی در شغل اصلی ۱ - کارفرما ۲ - کارکن مستقل ۳ - کارکن فامیلی بدون
+        مزد ۴ - مزد و حقوق بگیر بخش خصوصی ۵ - مزد و حقوق بگیر بخش عمومی ۶ - مزد و حقوق
+        بگیر بخش تعاونی ۷ - کارآموز با مزد ۸ - کارآموز بدون مزد '
+      translation: 'Employment status in main job: 1 - Employer 2 - Self-employed worker
+        3 - Unpaid family worker 4 - Private sector employee 5 - Public sector employee
+        6 - Cooperative sector employee 7 - Paid apprentice 8 - Unpaid apprentice '
       type: category
       categories:
         1: Employer
@@ -1886,10 +1892,10 @@
     ``` yaml
     1384:
       column_code: F3_D10
-      question: 'تعداد کارکنان محل کار یک تا چهار نفر پنج تا نه نفر ده تا نوزده نفر بیست
-        تا چهل و نه نفر پنجاه نفر و بیشتر '
-      translation: 'Number of employees at the workplace: 1 to 4 people 5 to 9 people
-        10 to 19 people 20 to 49 people 50 people or more '
+      question: 'تعداد کارکنان محل کار ۱ - یک تا چهار نفر ۲ - پنج تا نه نفر ۳ - ده تا
+        نوزده نفر ۴ - بیست تا چهل و نه نفر ۵ - پنجاه نفر و بیشتر '
+      translation: 'Number of employees at the workplace: 1 - 1 to 4 people 2 - 5 to 9
+        people 3 - 10 to 19 people 4 - 20 to 49 people 5 - 50 people or more '
       type: category
       categories:
         1: 1-4
@@ -1899,10 +1905,10 @@
         5: 50+
     1387:
       column_code: F3_D12
-      question: 'تعداد کارکنان محل کار یک تا چهار نفر پنج تا نه نفر ده تا نوزده نفر بیست
-        تا چهل و نه نفر پنجاه نفر و بیشتر '
-      translation: 'Number of employees at the workplace: 1 to 4 people 5 to 9 people
-        10 to 19 people 20 to 49 people 50 people or more '
+      question: 'تعداد کارکنان محل کار ۱ - یک تا چهار نفر ۲ - پنج تا نه نفر ۳ - ده تا
+        نوزده نفر ۴ - بیست تا چهل و نه نفر ۵ - پنجاه نفر و بیشتر '
+      translation: 'Number of employees at the workplace: 1 - 1 to 4 people 2 - 5 to 9
+        people 3 - 10 to 19 people 4 - 20 to 49 people 5 - 50 people or more '
       type: category
       categories:
         1: 1-4
@@ -2431,11 +2437,11 @@
     ``` yaml
     1384:
       column_code: F3_D14
-      question: 'به چه علت ساعات کار معمول شما در هفته، ... ساعت است؟ ۱- ماهیت کار (کار
-        تمام وقت کمتر از ۴۴ ساعت) ۲- تمایل نداشتن به کار بیشتر ۳- مسائل شخصی یا خانوادگی
-        ۴- بیماری، ناتوانی، آسیب‌دیدگی ۵- تحصیل یا آموزش ۶- پیدا نکردن کار با ساعت بیشتر
-        ۷- رکود کاری یا قرار داشتن در فصل غیر کاری ۸- فقدان مواد اولیه یا اعتبارات مورد
-        نیاز ۹- سایر '
+      question: 'به چه علت ساعات کار معمول شما در هفته، ... ساعت است؟ ۱ - ماهیت کار (کار
+        تمام وقت کمتر از ۴۴ ساعت) ۲ - تمایل نداشتن به کار بیشتر ۳ - مسائل شخصی یا خانوادگی
+        ۴ - بیماری، ناتوانی، آسیب‌دیدگی ۵ - تحصیل یا آموزش ۶ - پیدا نکردن کار با ساعت
+        بیشتر ۷ - رکود کاری یا قرار داشتن در فصل غیر کاری ۸ - فقدان مواد اولیه یا اعتبارات
+        مورد نیاز ۹ - سایر '
       translation: 'Why are your usual weekly work hours ... hours? 1 - Nature of work
         (full-time job less than 44 hours)  2 - Unwillingness to work more 3 - Personal
         or family issues 4 - Illness, disability, injury 5 - Education or training 6 -
@@ -2454,11 +2460,11 @@
         9: Other
     1387:
       column_code: F3_D17
-      question: 'به چه علت ساعات کار معمول شما در هفته، ... ساعت است؟ ۱- ماهیت کار (کار
-        تمام وقت کمتر از ۴۴ ساعت) ۲- تمایل نداشتن به کار بیشتر ۳- مسائل شخصی یا خانوادگی
-        ۴- بیماری، ناتوانی، آسیب‌دیدگی ۵- تحصیل یا آموزش ۶- پیدا نکردن کار با ساعت بیشتر
-        ۷- رکود کاری یا قرار داشتن در فصل غیر کاری ۸- فقدان مواد اولیه یا اعتبارات مورد
-        نیاز ۹- سایر '
+      question: 'به چه علت ساعات کار معمول شما در هفته، ... ساعت است؟ ۱ - ماهیت کار (کار
+        تمام وقت کمتر از ۴۴ ساعت) ۲ - تمایل نداشتن به کار بیشتر ۳ - مسائل شخصی یا خانوادگی
+        ۴ - بیماری، ناتوانی، آسیب‌دیدگی ۵ - تحصیل یا آموزش ۶ - پیدا نکردن کار با ساعت
+        بیشتر ۷ - رکود کاری یا قرار داشتن در فصل غیر کاری ۸ - فقدان مواد اولیه یا اعتبارات
+        مورد نیاز ۹ - سایر '
       translation: 'Why are your usual weekly work hours ... hours? 1 - Nature of work
         (full-time job less than 44 hours)  2 - Unwillingness to work more 3 - Personal
         or family issues 4 - Illness, disability, injury 5 - Education or training 6 -
@@ -2964,10 +2970,10 @@
     ``` yaml
     1384:
       column_code: F3_D1_16
-      question: 'به چه علت در هفته‌ی گذشته کمتر از حد معمول کار کرده‌اید؟ ۱- تعطیلات یا
-        مرخصی ۲- بیماری، ناتوانی، آسیب‌دیدگی ۳- تحصیلی یا آموزشی ۴- مسائل شخصی یا خانوادگی
-        ۵- پیدا نکردن کار با ساعت بیشتر ۶- تعطیلی محل کار ۷- آغاز یا خاتمه کار ۸- رکود
-        کاری ۹- سایر '
+      question: 'به چه علت در هفته‌ی گذشته کمتر از حد معمول کار کرده‌اید؟ ۱ - تعطیلات
+        یا مرخصی ۲ - بیماری، ناتوانی، آسیب‌دیدگی ۳ - تحصیلی یا آموزشی ۴ - مسائل شخصی یا
+        خانوادگی ۵ - پیدا نکردن کار با ساعت بیشتر ۶ - تعطیلی محل کار ۷ - آغاز یا خاتمه
+        کار ۸ - رکود کاری ۹ - سایر '
       translation: 'Why did you work less than usual last week? 1 - Holidays or leave
         2 - Illness, disability, injury 3 - Education or training 4 - Personal or family
         issues 5 - Unable to find more work hours 6 - Workplace closed 7 - Starting or
@@ -2985,10 +2991,10 @@
         9: Other
     1387:
       column_code: F3_D19
-      question: 'به چه علت در هفته‌ی گذشته کمتر از حد معمول کار کرده‌اید؟ ۱- تعطیلات یا
-        مرخصی ۲- بیماری، ناتوانی، آسیب‌دیدگی ۳- تحصیلی یا آموزشی ۴- مسائل شخصی یا خانوادگی
-        ۵- پیدا نکردن کار با ساعت بیشتر ۶- تعطیلی محل کار ۷- آغاز یا خاتمه کار ۸- رکود
-        کاری ۹- سایر '
+      question: 'به چه علت در هفته‌ی گذشته کمتر از حد معمول کار کرده‌اید؟ ۱ - تعطیلات
+        یا مرخصی ۲ - بیماری، ناتوانی، آسیب‌دیدگی ۳ - تحصیلی یا آموزشی ۴ - مسائل شخصی یا
+        خانوادگی ۵ - پیدا نکردن کار با ساعت بیشتر ۶ - تعطیلی محل کار ۷ - آغاز یا خاتمه
+        کار ۸ - رکود کاری ۹ - سایر '
       translation: 'Why did you work less than usual last week? 1 - Holidays or leave
         2 - Illness, disability, injury 3 - Education or training 4 - Personal or family
         issues 5 - Unable to find more work hours 6 - Workplace closed 7 - Starting or
@@ -3064,7 +3070,7 @@
       question: 'در طول چهار هفته‌ی گذشته از طریق کدام شیوه در جستجوی کار یوده‌اید؟ ثبت‌نام
         و یا پیگیری در موسسات کاریابی وزارت کار '
       translation: 'In the past 4 weeks, which method did you use to look for work? Registering
-        or following up with other employment agencies '
+        or following up with government employment agencies '
       type: boolean
       true_condition: 1
     1387:
@@ -3072,7 +3078,7 @@
       question: 'در طول چهار هفته‌ی گذشته از طریق کدام شیوه در جستجوی کار یوده‌اید؟ ثبت‌نام
         و یا پیگیری در موسسات کاریابی وزارت کار '
       translation: 'In the past 4 weeks, which method did you use to look for work? Registering
-        or following up with other employment agencies '
+        or following up with government employment agencies '
       type: boolean
       true_condition: 1
     
@@ -3117,8 +3123,8 @@
     ``` yaml
     1384:
       column_code: F3_D2_16
-      question: 'به چه علت در هفته‌ی گذشته بیش از حد معمول کار کرده‌اید؟ ۱- اضافه کاری
-        غیر معمول ۲- سایر '
+      question: 'به چه علت در هفته‌ی گذشته بیش از حد معمول کار کرده‌اید؟ ۱ - اضافه کاری
+        غیر معمول ۲ - سایر '
       translation: 'Why did you work more than usual last week? 1 - Unusual overtime 2
         - Other '
       type: category
@@ -3127,8 +3133,8 @@
         2: Other
     1387:
       column_code: F3_D20
-      question: 'به چه علت در هفته‌ی گذشته بیش از حد معمول کار کرده‌اید؟ ۱- اضافه کاری
-        غیر معمول ۲- سایر '
+      question: 'به چه علت در هفته‌ی گذشته بیش از حد معمول کار کرده‌اید؟ ۱ - اضافه کاری
+        غیر معمول ۲ - سایر '
       translation: 'Why did you work more than usual last week? 1 - Unusual overtime 2
         - Other '
       type: category
@@ -3289,9 +3295,9 @@
     ``` yaml
     1384:
       column_code: F3_D19
-      question: 'از چه طریق می‌خواستید ساعات کار خود را افزایش دهید؟ ۱- اضافه کردن ساعت
-        کار شغل فعلی ۲- پیدا کردن شغل دیگر علاوه بر شغل فعلی ۳- پیدا کردن شغل دیگر با
-        ساعت کار بیشتر به جای شغل فعلی ۴- ترکیبی از موارد فوق '
+      question: 'از چه طریق می‌خواستید ساعات کار خود را افزایش دهید؟ ۱ - اضافه کردن ساعت
+        کار شغل فعلی ۲ - پیدا کردن شغل دیگر علاوه بر شغل فعلی ۳ - پیدا کردن شغل دیگر با
+        ساعت کار بیشتر به جای شغل فعلی ۴ - ترکیبی از موارد فوق '
       translation: 'How did you want to increase your work hours? 1 - Adding hours to
         current job 2 - Finding additional job besides current job 3 - Finding new job
         with more hours instead of current job 4 - Combination of above '
@@ -3303,9 +3309,9 @@
         4: Combination
     1387:
       column_code: F3_D23
-      question: 'از چه طریق می‌خواستید ساعات کار خود را افزایش دهید؟ ۱- اضافه کردن ساعت
-        کار شغل فعلی ۲- پیدا کردن شغل دیگر علاوه بر شغل فعلی ۳- پیدا کردن شغل دیگر با
-        ساعت کار بیشتر به جای شغل فعلی ۴- ترکیبی از موارد فوق '
+      question: 'از چه طریق می‌خواستید ساعات کار خود را افزایش دهید؟ ۱ - اضافه کردن ساعت
+        کار شغل فعلی ۲ - پیدا کردن شغل دیگر علاوه بر شغل فعلی ۳ - پیدا کردن شغل دیگر با
+        ساعت کار بیشتر به جای شغل فعلی ۴ - ترکیبی از موارد فوق '
       translation: 'How did you want to increase your work hours? 1 - Adding hours to
         current job 2 - Finding additional job besides current job 3 - Finding new job
         with more hours instead of current job 4 - Combination of above '
@@ -3419,9 +3425,9 @@
     ``` yaml
     1384:
       column_code: F3_D21
-      question: 'به چه منظوری در جستجوی شغل دیگری بوده‌اید؟ ۱- افزایش درآمد ۲- کاهش ساعت
-        کار ۳- احتمال از دست دادن شغل فعلی ۴- استفاده بهینه از مهارت و تخصص ۵- افزایش
-        ساعت کار ۶- سایر '
+      question: 'به چه منظوری در جستجوی شغل دیگری بوده‌اید؟ ۱ - افزایش درآمد ۲ - کاهش
+        ساعت کار ۳ - احتمال از دست دادن شغل فعلی ۴ - استفاده بهینه از مهارت و تخصص ۵ -
+        افزایش ساعت کار ۶ - سایر '
       translation: 'For what purpose were you looking for another job? 1 - Increase income
         2 - Reduce work hours 3 - Possibility of losing current job 4 - Optimal use of
         skills 5 - Increase work hours 6 - Other '
@@ -3435,9 +3441,9 @@
         6: Other
     1387:
       column_code: F3_D25
-      question: 'به چه منظوری در جستجوی شغل دیگری بوده‌اید؟ ۱- افزایش درآمد ۲- کاهش ساعت
-        کار ۳- احتمال از دست دادن شغل فعلی ۴- استفاده بهینه از مهارت و تخصص ۵- افزایش
-        ساعت کار ۶- سایر '
+      question: 'به چه منظوری در جستجوی شغل دیگری بوده‌اید؟ ۱ - افزایش درآمد ۲ - کاهش
+        ساعت کار ۳ - احتمال از دست دادن شغل فعلی ۴ - استفاده بهینه از مهارت و تخصص ۵ -
+        افزایش ساعت کار ۶ - سایر '
       translation: 'For what purpose were you looking for another job? 1 - Increase income
         2 - Reduce work hours 3 - Possibility of losing current job 4 - Optimal use of
         skills 5 - Increase work hours 6 - Other '
@@ -3503,8 +3509,8 @@
     ``` yaml
     1384:
       column_code: F3_D1_21
-      question: 'از چه طریقی در جستجوی شغل دیگری بوده‌اید؟ ۱- پیدا کردن شغل دیگر علاوه
-        بر شغل فعلی ۲- پیدا کردن شغل دیگر به جای شغل فعلی ۳- هر دو '
+      question: 'از چه طریقی در جستجوی شغل دیگری بوده‌اید؟ ۱ - پیدا کردن شغل دیگر علاوه
+        بر شغل فعلی ۲ - پیدا کردن شغل دیگر به جای شغل فعلی ۳ - هر دو '
       translation: 'How were you looking for another job? 1 - In addition to current job
         2 - To replace current job 3 - Both '
       type: category
@@ -3514,8 +3520,8 @@
         3: Both
     1387:
       column_code: F3_D26
-      question: 'از چه طریقی در جستجوی شغل دیگری بوده‌اید؟ ۱- پیدا کردن شغل دیگر علاوه
-        بر شغل فعلی ۲- پیدا کردن شغل دیگر به جای شغل فعلی ۳- هر دو '
+      question: 'از چه طریقی در جستجوی شغل دیگری بوده‌اید؟ ۱ - پیدا کردن شغل دیگر علاوه
+        بر شغل فعلی ۲ - پیدا کردن شغل دیگر به جای شغل فعلی ۳ - هر دو '
       translation: 'How were you looking for another job? 1 - In addition to current job
         2 - To replace current job 3 - Both '
       type: category
@@ -3829,16 +3835,16 @@
       column_code: F3_D2_33
       question: 'در طول چهار هفته‌ی گذشته از طریق کدام شیوه در جستجوی کار یوده‌اید؟ ثبت‌نام
         و یا پیگیری در سایر موسسات کاریابی '
-      translation: 'In the past 4 weeks, which method did you use to look for work? Contacting
-        employers '
+      translation: 'In the past 4 weeks, which method did you use to look for work? Registering
+        or following up with other employment agencies '
       type: boolean
       true_condition: 1
     1387:
       column_code: F3_D2_32
       question: 'در طول چهار هفته‌ی گذشته از طریق کدام شیوه در جستجوی کار یوده‌اید؟ ثبت‌نام
         و یا پیگیری در سایر موسسات کاریابی '
-      translation: 'In the past 4 weeks, which method did you use to look for work? Contacting
-        employers '
+      translation: 'In the past 4 weeks, which method did you use to look for work? Registering
+        or following up with other employment agencies '
       type: boolean
       true_condition: 1
     
@@ -3883,12 +3889,12 @@
     ``` yaml
     1384:
       column_code: F3_D25
-      question: 'وضع شغلی در شغل دوم کارفرما کارکن مستقل کارکن فامیلی بدون مزد مزد و حقوق
-        بگیر بخش خصوصی مزد و حقوق بگیر بخش عمومی مزد و حقوق بگیر بخش تعاونی کارآموز با
-        مزد کارآموز بدون مزد '
-      translation: 'Employment status in second job: Employer Self-employed worker Unpaid
-        family worker Private sector employee Public sector employee Cooperative sector
-        employee Paid apprentice Unpaid apprentice '
+      question: 'وضع شغلی در شغل دوم ۱ - کارفرما ۲ - کارکن مستقل ۳ - کارکن فامیلی بدون
+        مزد ۴ - مزد و حقوق بگیر بخش خصوصی ۵ - مزد و حقوق بگیر بخش عمومی ۶ - مزد و حقوق
+        بگیر بخش تعاونی ۷ - کارآموز با مزد ۸ - کارآموز بدون مزد '
+      translation: 'Employment status in second job: 1 - Employer 2 - Self-employed worker
+        3 - Unpaid family worker 4 - Private sector employee 5 - Public sector employee
+        6 - Cooperative sector employee 7 - Paid apprentice 8 - Unpaid apprentice '
       type: category
       categories:
         1: Employer
@@ -3901,12 +3907,12 @@
         8: Unpaid_Apprentice
     1387:
       column_code: F3_D30
-      question: 'وضع شغلی در شغل دوم کارفرما کارکن مستقل کارکن فامیلی بدون مزد مزد و حقوق
-        بگیر بخش خصوصی مزد و حقوق بگیر بخش عمومی مزد و حقوق بگیر بخش تعاونی کارآموز با
-        مزد کارآموز بدون مزد '
-      translation: 'Employment status in second job: Employer Self-employed worker Unpaid
-        family worker Private sector employee Public sector employee Cooperative sector
-        employee Paid apprentice Unpaid apprentice '
+      question: 'وضع شغلی در شغل دوم ۱ - کارفرما ۲ - کارکن مستقل ۳ - کارکن فامیلی بدون
+        مزد ۴ - مزد و حقوق بگیر بخش خصوصی ۵ - مزد و حقوق بگیر بخش عمومی ۶ - مزد و حقوق
+        بگیر بخش تعاونی ۷ - کارآموز با مزد ۸ - کارآموز بدون مزد '
+      translation: 'Employment status in second job: 1 - Employer 2 - Self-employed worker
+        3 - Unpaid family worker 4 - Private sector employee 5 - Public sector employee
+        6 - Cooperative sector employee 7 - Paid apprentice 8 - Unpaid apprentice '
       type: category
       categories:
         1: Employer
@@ -4033,13 +4039,13 @@
     ``` yaml
     1384:
       column_code: F3_D35
-      question: 'علت این که در طول چهار هفته‌ی گذشته در جستجوی کار نبوده‌اید چیست؟ ۱-
-        آغاز به کار در آینده (انتظار برای شروع کار جدید) ۲- در انتظار پاسخ کارفرما یا
-        در انتظار اعلام نتایج آزمون استخدامی ۳- در انتظار به ثمر رسیدن سایر اقدامات انجام
-        شده برای پیدا کردن کار ۴- دلسرد شدن از جستجوی کار، ناامید شدن از پیدا کردن کار
-        ۵- در انتظار بازگشت به شغل قبلی ۶- در انتظار فصل کاری ۷- آگاهی نداشتن از روش‌های
-        جستجوی کار ۸- بیماری، ناتوانی جسمی موقت، بارداری ۹- اشتغال به تحصیل یا آموزش ۱۰-
-        مسئولیت‌های شخصی یا خانوادگی ۱۱- بی‌نیاز بودن از انجام کار ۱۲- سایر '
+      question: 'علت این که در طول چهار هفته‌ی گذشته در جستجوی کار نبوده‌اید چیست؟ ۱ -
+        آغاز به کار در آینده (انتظار برای شروع کار جدید) ۲ - در انتظار پاسخ کارفرما یا
+        در انتظار اعلام نتایج آزمون استخدامی ۳ - در انتظار به ثمر رسیدن سایر اقدامات انجام
+        شده برای پیدا کردن کار ۴ - دلسرد شدن از جستجوی کار، ناامید شدن از پیدا کردن کار
+        ۵ - در انتظار بازگشت به شغل قبلی ۶ - در انتظار فصل کاری ۷ - آگاهی نداشتن از روش‌های
+        جستجوی کار ۸ - بیماری، ناتوانی جسمی موقت، بارداری ۹ - اشتغال به تحصیل یا آموزش
+        ۱۰ - مسئولیت‌های شخصی یا خانوادگی ۱۱ - بی‌نیاز بودن از انجام کار ۱۲ - سایر '
       translation: 'What is the reason you were not searching for work in the past 4 weeks?
         1 - Starting work in future (waiting to start new job) 2 - Awaiting employer response
         or job test results 3 - Awaiting other job search efforts to come to fruition
@@ -4063,13 +4069,13 @@
         12: Other
     1387:
       column_code: F3_D33
-      question: 'علت این که در طول چهار هفته‌ی گذشته در جستجوی کار نبوده‌اید چیست؟ ۱-
-        آغاز به کار در آینده (انتظار برای شروع کار جدید) ۲- در انتظار پاسخ کارفرما یا
-        در انتظار اعلام نتایج آزمون استخدامی ۳- در انتظار به ثمر رسیدن سایر اقدامات انجام
-        شده برای پیدا کردن کار ۴- دلسرد شدن از جستجوی کار، ناامید شدن از پیدا کردن کار
-        ۵- در انتظار بازگشت به شغل قبلی ۶- در انتظار فصل کاری ۷- آگاهی نداشتن از روش‌های
-        جستجوی کار ۸- بیماری، ناتوانی جسمی موقت، بارداری ۹- اشتغال به تحصیل یا آموزش ۱۰-
-        مسئولیت‌های شخصی یا خانوادگی ۱۱- بی‌نیاز بودن از انجام کار ۱۲- سایر '
+      question: 'علت این که در طول چهار هفته‌ی گذشته در جستجوی کار نبوده‌اید چیست؟ ۱ -
+        آغاز به کار در آینده (انتظار برای شروع کار جدید) ۲ - در انتظار پاسخ کارفرما یا
+        در انتظار اعلام نتایج آزمون استخدامی ۳ - در انتظار به ثمر رسیدن سایر اقدامات انجام
+        شده برای پیدا کردن کار ۴ - دلسرد شدن از جستجوی کار، ناامید شدن از پیدا کردن کار
+        ۵ - در انتظار بازگشت به شغل قبلی ۶ - در انتظار فصل کاری ۷ - آگاهی نداشتن از روش‌های
+        جستجوی کار ۸ - بیماری، ناتوانی جسمی موقت، بارداری ۹ - اشتغال به تحصیل یا آموزش
+        ۱۰ - مسئولیت‌های شخصی یا خانوادگی ۱۱ - بی‌نیاز بودن از انجام کار ۱۲ - سایر '
       translation: 'What is the reason you were not searching for work in the past 4 weeks?
         1 - Starting work in future (waiting to start new job) 2 - Awaiting employer response
         or job test results 3 - Awaiting other job search efforts to come to fruition
@@ -4890,12 +4896,12 @@
     ``` yaml
     1384:
       column_code: F3_D30
-      question: 'وضع شغلی در آخرین شغل کارفرما کارکن مستقل کارکن فامیلی بدون مزد مزد و
-        حقوق بگیر بخش خصوصی مزد و حقوق بگیر بخش عمومی مزد و حقوق بگیر بخش تعاونی کارآموز
-        با مزد کارآموز بدون مزد '
-      translation: 'Employment status in last job: Employer Self-employed worker Unpaid
-        family worker Private sector employee Public sector employee Cooperative sector
-        employee Paid apprentice Unpaid apprentice '
+      question: 'وضع شغلی در آخرین شغل ۱ - کارفرما ۲ - کارکن مستقل ۳ - کارکن فامیلی بدون
+        مزد ۴ - مزد و حقوق بگیر بخش خصوصی ۵ - مزد و حقوق بگیر بخش عمومی ۶ - مزد و حقوق
+        بگیر بخش تعاونی ۷ - کارآموز با مزد ۸ - کارآموز بدون مزد '
+      translation: 'Employment status in last job: 1 - Employer 2 - Self-employed worker
+        3 - Unpaid family worker 4 - Private sector employee 5 - Public sector employee
+        6 - Cooperative sector employee 7 - Paid apprentice 8 - Unpaid apprentice '
       type: category
       categories:
         1: Employer
@@ -4908,12 +4914,12 @@
         8: Unpaid_Apprentice
     1387:
       column_code: F3_D43
-      question: 'وضع شغلی در آخرین شغل کارفرما کارکن مستقل کارکن فامیلی بدون مزد مزد و
-        حقوق بگیر بخش خصوصی مزد و حقوق بگیر بخش عمومی مزد و حقوق بگیر بخش تعاونی کارآموز
-        با مزد کارآموز بدون مزد '
-      translation: 'Employment status in last job: Employer Self-employed worker Unpaid
-        family worker Private sector employee Public sector employee Cooperative sector
-        employee Paid apprentice Unpaid apprentice '
+      question: 'وضع شغلی در آخرین شغل ۱ - کارفرما ۲ - کارکن مستقل ۳ - کارکن فامیلی بدون
+        مزد ۴ - مزد و حقوق بگیر بخش خصوصی ۵ - مزد و حقوق بگیر بخش عمومی ۶ - مزد و حقوق
+        بگیر بخش تعاونی ۷ - کارآموز با مزد ۸ - کارآموز بدون مزد '
+      translation: 'Employment status in last job: 1 - Employer 2 - Self-employed worker
+        3 - Unpaid family worker 4 - Private sector employee 5 - Public sector employee
+        6 - Cooperative sector employee 7 - Paid apprentice 8 - Unpaid apprentice '
       type: category
       categories:
         1: Employer
