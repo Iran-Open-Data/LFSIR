@@ -9,9 +9,8 @@ and analysis for users without extensive programming knowledge.
 # pylint: disable=unused-argument
 # pylint: disable=too-many-locals
 
-from typing import Any, Iterable
+from typing import Any, Iterable, Literal
 from pathlib import Path
-from typing import Literal
 
 import pandas as pd
 
@@ -196,8 +195,8 @@ def add_attribute(
     ``` python
     import lfsir
     table = lfsir.load_table(years=1401)
-    table = add_attribute(table, "Urban_Rural")
-    table = add_attribute(table, "Province", aspects="farsi_name")
+    table = lfsir.add_attribute(table, "Urban_Rural")
+    table = lfsir.add_attribute(table, "Province", aspects="farsi_name")
     ```
 
     """
@@ -209,6 +208,7 @@ def add_classification(
     table: pd.DataFrame,
     target: str,
     *,
+    name: str | None = None,
     aspects: Iterable[str] | str | None = None,
     levels: Iterable[int] | int | None = None,
     column_names: Iterable[str] | str | None = None,
@@ -230,6 +230,8 @@ def add_classification(
         Input DataFrame containing the classification code column.
     target : str
         Name of the column containing industry or occupation codes.
+    name : str, default 'original'
+        Name of classification to apply.
 
     Other parameters
     ----------------
@@ -253,7 +255,7 @@ def add_classification(
     ```python
     import lfsir
     table = lfsir.load_table(years=1401)
-    table = add_classification(table, target="Main_Job_Workplace_ISIC_Code")
+    table = lfsir.add_classification(table, target="Main_Job_Workplace_ISIC_Code")
     ```
 
     """
@@ -309,9 +311,12 @@ def setup(
     Advanced usage:
 
     ```python
-    lfsir.setup(years="1390-1400",
-               method="create_from_raw",
-               replace=True)
+    lfsir.setup(
+        years="1390-1400",
+        method="create_from_raw",
+        download_source="original",
+        replace=True,
+    )
     ```
 
     This will recreate all tables from 1390 to 1400 from raw data even if they
