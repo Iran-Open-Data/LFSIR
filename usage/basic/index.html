@@ -11,22 +11,25 @@
         <link rel="canonical" href="https://iran-open-data.github.io/LFSIR/usage/basic/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../installation/">
       
       
         <link rel="next" href="../../api/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.1">
+      <link rel="icon" href="../../assets/images/helmet-safety-solid.svg">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
     
     
       
-        <title>Basic Usage - LFSIR</title>
+        <title>Getting Started - LFSIR</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.45e1311d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -57,7 +60,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -66,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#basic-usage" class="md-skip">
+        <a href="#getting-started" class="md-skip">
           Skip to content
         </a>
       
@@ -83,7 +93,7 @@
     <a href="../.." title="LFSIR" class="md-header__button md-logo" aria-label="LFSIR" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 32c-17.7 0-32 14.3-32 32V165.9c0 5.6-4.5 10.1-10.1 10.1-3.6 0-7-1.9-8.8-5.1l-48-83.9C83 123.5 32 199.8 32 288v64h512v-66.4c-.9-87.2-51.7-162.4-125.1-198.6l-48 83.9c-1.8 3.2-5.2 5.1-8.8 5.1-5.6 0-10.1-4.5-10.1-10.1V64c0-17.7-14.3-32-32-32h-64zM16.6 384C7.4 384 0 391.4 0 400.6c0 4.7 2 9.2 5.8 11.9C27.5 428.4 111.8 480 288 480s260.5-51.6 282.2-67.5c3.8-2.8 5.8-7.2 5.8-11.9 0-9.2-7.4-16.6-16.6-16.6H16.6z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -100,12 +110,38 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Basic Usage
+              Getting Started
             
           </span>
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -303,7 +339,7 @@
     <a href="../.." title="LFSIR" class="md-nav__button md-logo" aria-label="LFSIR" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 32c-17.7 0-32 14.3-32 32V165.9c0 5.6-4.5 10.1-10.1 10.1-3.6 0-7-1.9-8.8-5.1l-48-83.9C83 123.5 32 199.8 32 288v64h512v-66.4c-.9-87.2-51.7-162.4-125.1-198.6l-48 83.9c-1.8 3.2-5.2 5.1-8.8 5.1-5.6 0-10.1-4.5-10.1-10.1V64c0-17.7-14.3-32-32-32h-64zM16.6 384C7.4 384 0 391.4 0 400.6c0 4.7 2 9.2 5.8 11.9C27.5 428.4 111.8 480 288 480s260.5-51.6 282.2-67.5c3.8-2.8 5.8-7.2 5.8-11.9 0-9.2-7.4-16.6-16.6-16.6H16.6z"/></svg>
 
     </a>
     LFSIR
@@ -400,6 +436,8 @@
       
         
       
+        
+      
     
     
     
@@ -447,6 +485,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -463,7 +522,7 @@
           
   
   <span class="md-ellipsis">
-    Basic Usage
+    Getting Started
   </span>
   
 
@@ -474,7 +533,7 @@
         
   
   <span class="md-ellipsis">
-    Basic Usage
+    Getting Started
   </span>
   
 
@@ -1802,19 +1861,19 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </style>
 <!-- End of mermaid configuration --><div class="jupyter-wrapper">
 <div class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c3bb996a">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3ac40ad6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="basic-usage">Basic Usage<a class="anchor-link" href="#basic-usage">¶</a></h1><p>The LFSIR package provides easy access to Iran's Labor Force Survey data.
-We can load the raw survey tables and enrich them with additional informations.</p>
+<h1 id="getting-started">Getting Started<a class="anchor-link" href="#getting-started">¶</a></h1><p>The LFSIR package provides easy access to Iran's Labor Force Survey data.
+We can load the survey tables and enrich them with additional informations.</p>
 </div>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=02587162">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=12a7f5fc">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -1841,7 +1900,7 @@ We can load the raw survey tables and enrich them with additional informations.<
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=70b0b6c1">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bb46be5f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -1853,7 +1912,7 @@ Let's load the data from 1401.</p>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ff2986a2">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=56976b2b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2059,7 +2118,7 @@ df.head()</div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a5f15835">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9bd06c74">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2071,7 +2130,7 @@ df.head()</div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ea9c29d3">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=89d77a86">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2082,7 +2141,7 @@ df.head()</div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b9c2fa76">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4f08351f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2093,7 +2152,7 @@ df.head()</div>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=4ff757e5">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=ce97efbc">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2120,7 +2179,7 @@ df.head()</div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a42ac428">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c433f9fa">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2131,7 +2190,7 @@ df.head()</div>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=e5287f29">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=6f865ea2">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2158,7 +2217,7 @@ df.head()</div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3a7d2ab7">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=51780089">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2169,7 +2228,7 @@ df.head()</div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b2e16163">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9a39a2d0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2180,7 +2239,7 @@ df.head()</div>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e578a581">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b8690a46">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2237,124 +2296,124 @@ df.head()</div>
 </thead>
 <tbody>
 <tr>
-<th>346250</th>
-<td>115103664</td>
-<td>Lorestan</td>
+<th>306048</th>
+<td>113102066</td>
+<td>Hamadan</td>
 <td>Urban</td>
 </tr>
 <tr>
-<th>364424</th>
-<td>115215770</td>
-<td>Lorestan</td>
-<td>Rural</td>
-</tr>
-<tr>
-<th>107381</th>
-<td>104215656</td>
-<td>West_Azerbaijan</td>
-<td>Rural</td>
-</tr>
-<tr>
-<th>456555</th>
-<td>120210667</td>
-<td>Semnan</td>
-<td>Rural</td>
-</tr>
-<tr>
-<th>166607</th>
-<td>107106357</td>
-<td>Fars</td>
+<th>369154</th>
+<td>116103873</td>
+<td>Ilam</td>
 <td>Urban</td>
 </tr>
 <tr>
-<th>188592</th>
-<td>108102854</td>
-<td>Kerman</td>
+<th>527914</th>
+<td>123119058</td>
+<td>Tehran</td>
 <td>Urban</td>
 </tr>
 <tr>
-<th>569124</th>
-<td>125214066</td>
-<td>Qom</td>
-<td>Rural</td>
-</tr>
-<tr>
-<th>211445</th>
-<td>109104572</td>
-<td>Razavi_Khorasan</td>
-<td>Urban</td>
-</tr>
-<tr>
-<th>664181</th>
-<td>130109572</td>
+<th>663295</th>
+<td>130108750</td>
 <td>Alborz</td>
 <td>Urban</td>
 </tr>
 <tr>
-<th>45497</th>
-<td>102102951</td>
-<td>Mazandaran</td>
+<th>629745</th>
+<td>129100266</td>
+<td>South_Khorasan</td>
 <td>Urban</td>
 </tr>
 <tr>
-<th>436697</th>
-<td>119209466</td>
-<td>Zanjan</td>
-<td>Rural</td>
-</tr>
-<tr>
-<th>592276</th>
-<td>127102955</td>
-<td>Golestan</td>
+<th>172061</th>
+<td>107110472</td>
+<td>Fars</td>
 <td>Urban</td>
 </tr>
 <tr>
-<th>6768</th>
-<td>100105260</td>
+<th>30129</th>
+<td>101106368</td>
+<td>Gilan</td>
+<td>Urban</td>
+</tr>
+<tr>
+<th>5486</th>
+<td>100104358</td>
 <td>Markazi</td>
 <td>Urban</td>
 </tr>
 <tr>
-<th>562811</th>
-<td>125109552</td>
-<td>Qom</td>
+<th>654920</th>
+<td>130100659</td>
+<td>Alborz</td>
 <td>Urban</td>
 </tr>
 <tr>
-<th>315881</th>
-<td>113209570</td>
-<td>Hamadan</td>
-<td>Rural</td>
-</tr>
-<tr>
-<th>197576</th>
-<td>108210360</td>
-<td>Kerman</td>
-<td>Rural</td>
-</tr>
-<tr>
-<th>332837</th>
-<td>114107352</td>
-<td>Chaharmahal_and_Bakhtiari</td>
+<th>485520</th>
+<td>122102263</td>
+<td>Hormozgan</td>
 <td>Urban</td>
 </tr>
 <tr>
-<th>83195</th>
-<td>103217870</td>
+<th>629699</th>
+<td>129100260</td>
+<td>South_Khorasan</td>
+<td>Urban</td>
+</tr>
+<tr>
+<th>74420</th>
+<td>103111254</td>
 <td>East_Azerbaijan</td>
-<td>Rural</td>
-</tr>
-<tr>
-<th>295921</th>
-<td>112210171</td>
-<td>Kurdistan</td>
-<td>Rural</td>
-</tr>
-<tr>
-<th>463917</th>
-<td>121102454</td>
-<td>Yazd</td>
 <td>Urban</td>
+</tr>
+<tr>
+<th>34036</th>
+<td>101209758</td>
+<td>Gilan</td>
+<td>Rural</td>
+</tr>
+<tr>
+<th>445900</th>
+<td>120102167</td>
+<td>Semnan</td>
+<td>Urban</td>
+</tr>
+<tr>
+<th>185939</th>
+<td>108100661</td>
+<td>Kerman</td>
+<td>Urban</td>
+</tr>
+<tr>
+<th>372721</th>
+<td>116106558</td>
+<td>Ilam</td>
+<td>Urban</td>
+</tr>
+<tr>
+<th>8891</th>
+<td>100106769</td>
+<td>Markazi</td>
+<td>Urban</td>
+</tr>
+<tr>
+<th>349919</th>
+<td>115106162</td>
+<td>Lorestan</td>
+<td>Urban</td>
+</tr>
+<tr>
+<th>541529</th>
+<td>124207162</td>
+<td>Ardabil</td>
+<td>Rural</td>
+</tr>
+<tr>
+<th>603515</th>
+<td>127210962</td>
+<td>Golestan</td>
+<td>Rural</td>
 </tr>
 </tbody>
 </table>
@@ -2365,7 +2424,7 @@ df.head()</div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b97f0fa5">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2088c450">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2379,7 +2438,7 @@ categories across multiple levels of hierarchy.</p>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=dabe0788">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=26ce6f16">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2406,7 +2465,7 @@ categories across multiple levels of hierarchy.</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=693b5a0d">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d9f92ac7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2419,7 +2478,7 @@ human-readable titles derived from the ISIC classification system.</p>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3337fe64">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0bab309f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2475,104 +2534,104 @@ human-readable titles derived from the ISIC classification system.</p>
 </thead>
 <tbody>
 <tr>
-<th>213966</th>
-<td>49220</td>
-<td>Transportation and storage</td>
-</tr>
-<tr>
-<th>147454</th>
-<td>78000</td>
-<td>Administrative and support service activities</td>
-</tr>
-<tr>
-<th>318980</th>
-<td>47212</td>
+<th>134132</th>
+<td>47213</td>
 <td>Wholesale and retail trade; repair of motor ve...</td>
 </tr>
 <tr>
-<th>113555</th>
-<td>14100</td>
+<th>592696</th>
+<td>47710</td>
+<td>Wholesale and retail trade; repair of motor ve...</td>
+</tr>
+<tr>
+<th>133606</th>
+<td>25920</td>
 <td>Manufacturing</td>
 </tr>
 <tr>
-<th>477918</th>
+<th>100504</th>
 <td>13931</td>
 <td>Manufacturing</td>
 </tr>
 <tr>
-<th>199768</th>
-<td>1250</td>
+<th>29505</th>
+<td>85102</td>
+<td>Education</td>
+</tr>
+<tr>
+<th>650579</th>
+<td>1110</td>
 <td>Agriculture, forestry and fishing</td>
 </tr>
 <tr>
-<th>84221</th>
-<td>13931</td>
-<td>Manufacturing</td>
-</tr>
-<tr>
-<th>308377</th>
-<td>45200</td>
-<td>Wholesale and retail trade; repair of motor ve...</td>
-</tr>
-<tr>
-<th>662512</th>
-<td>29100</td>
-<td>Manufacturing</td>
-</tr>
-<tr>
-<th>362909</th>
-<td>1250</td>
+<th>602545</th>
+<td>1110</td>
 <td>Agriculture, forestry and fishing</td>
 </tr>
 <tr>
-<th>83398</th>
-<td>49230</td>
-<td>Transportation and storage</td>
-</tr>
-<tr>
-<th>408796</th>
-<td>84120</td>
-<td>Public administration and defence; compulsory ...</td>
-</tr>
-<tr>
-<th>662242</th>
+<th>633658</th>
 <td>41000</td>
 <td>Construction</td>
 </tr>
 <tr>
-<th>215156</th>
-<td>10303</td>
-<td>Manufacturing</td>
+<th>230878</th>
+<td>1440</td>
+<td>Agriculture, forestry and fishing</td>
 </tr>
 <tr>
-<th>532127</th>
+<th>478026</th>
+<td>49230</td>
+<td>Transportation and storage</td>
+</tr>
+<tr>
+<th>517256</th>
 <td>84110</td>
 <td>Public administration and defence; compulsory ...</td>
 </tr>
 <tr>
-<th>432924</th>
-<td>1130</td>
+<th>210391</th>
+<td>47531</td>
+<td>Wholesale and retail trade; repair of motor ve...</td>
+</tr>
+<tr>
+<th>584111</th>
+<td>49210</td>
+<td>Transportation and storage</td>
+</tr>
+<tr>
+<th>236889</th>
+<td>47410</td>
+<td>Wholesale and retail trade; repair of motor ve...</td>
+</tr>
+<tr>
+<th>317613</th>
+<td>1630</td>
 <td>Agriculture, forestry and fishing</td>
 </tr>
 <tr>
-<th>664639</th>
-<td>61000</td>
-<td>Information and communication</td>
-</tr>
-<tr>
-<th>104595</th>
-<td>43900</td>
+<th>475357</th>
+<td>41000</td>
 <td>Construction</td>
 </tr>
 <tr>
-<th>541514</th>
-<td>47300</td>
-<td>Wholesale and retail trade; repair of motor ve...</td>
+<th>97733</th>
+<td>1610</td>
+<td>Agriculture, forestry and fishing</td>
 </tr>
 <tr>
-<th>253488</th>
-<td>47212</td>
-<td>Wholesale and retail trade; repair of motor ve...</td>
+<th>320670</th>
+<td>1500</td>
+<td>Agriculture, forestry and fishing</td>
+</tr>
+<tr>
+<th>490271</th>
+<td>49230</td>
+<td>Transportation and storage</td>
+</tr>
+<tr>
+<th>422009</th>
+<td>49230</td>
+<td>Transportation and storage</td>
 </tr>
 </tbody>
 </table>
@@ -2583,7 +2642,7 @@ human-readable titles derived from the ISIC classification system.</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9bf3e037">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3eb4d43c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2616,6 +2675,8 @@ decode the original numeric codes into descriptive categories.</p>
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -2651,7 +2712,7 @@ decode the original numeric codes into descriptive categories.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.indexes", "toc.follow", "navigation.top", "content.code.copy", "content.code.annotate", "content.tooltips"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.indexes", "toc.follow", "navigation.top", "content.code.copy", "content.code.annotate", "content.tooltips", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>

@@ -3,6 +3,8 @@
   question: 'در طول هفته‌ی گذشته در محل سکونت به منظور کسب سود یا درآمد (نقدی یا غیر
     نقدی) حداقل یک ساعت، کاری انجام داده‌اید؟ کارهایی نظیر قالیبافی، خیاطی، آرایشگری،
     تایپ، تدریس خصوصی و مانند آن. '
-  translation: ''
+  translation: 'Last week, did you spend at least 1 hour working from home for profit
+    (cash or non-cash)? Such as rug weaving, sewing, hairdressing, typing, private
+    tutoring, etc. '
   type: boolean
   true_condition: 1

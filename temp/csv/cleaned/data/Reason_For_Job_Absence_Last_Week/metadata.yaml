@@ -1,17 +1,19 @@
 1384:
   column_code: F3_D05
-  question: 'علت اصلی غیبت موقت شما از کار در طول هفته‌ی گذشته چه بوده است؟ فصلی بودن
-    کار (برای افراد خود اشتغال در مشاغل کشاورزی نظیر زراعت، باغداری، دامداری ماهیگیری
-    و ...) تعطیلی محل کار، تغییرات موقت سازمانی یا خرابی دستگاه‌ها و ماشین آلات نداشتن
-    مشتری یا سفارش تعلیق موقت از کار (با داشتن پیوند رسمی شغلی) نوبتی بودن کار بیماری
-    یا آسیب دیدگی موقت تعطیلات یا انواع مرخصی تحصیل یا آموزش مسائل شخصی و خانوادگی
-    شرایط جوی نامساعد سایر (با ذکر علت) '
+  question: 'علت اصلی غیبت موقت شما از کار در طول هفته‌ی گذشته چه بوده است؟ ۱ - فصلی
+    بودن کار (برای افراد خود اشتغال در مشاغل کشاورزی نظیر زراعت،  باغداری، دامداری
+    ماهیگیری و ...) ۲ - تعطیلی محل کار، تغییرات موقت سازمانی یا خرابی دستگاه‌ها و  ماشین
+    آلات ۳ - نداشتن مشتری یا سفارش ۴ - تعلیق موقت از کار (با داشتن پیوند رسمی شغلی)
+    ۵ - نوبتی بودن کار ۶ - بیماری یا آسیب دیدگی موقت ۷ - تعطیلات یا انواع مرخصی ۸
+    - تحصیل یا آموزش ۹ - مسائل شخصی و خانوادگی ۱۰ - شرایط جوی نامساعد ۱۱ - سایر (با
+    ذکر علت) '
   translation: 'What was the main reason for your temporary absence from work last
-    week? Seasonal work (for self-employed in agriculture like farming, gardening,
-    livestock, fishing, etc) Workplace closed, temporary organizational changes or
-    machine breakdowns No customers or orders Temporary layoff (while still officially
-    employed) Shift work Temporary illness or injury Holidays or leave Education or
-    training Personal or family issues Adverse weather conditions Other (specify reason) '
+    week? 1 - Seasonal work (for self-employed in agriculture like farming,  gardening,
+    livestock, fishing, etc) 2 - Workplace closed, temporary organizational changes
+    or machine  breakdowns 3 - No customers or orders 4 - Temporary layoff (while
+    still officially employed) 5 - Shift work 6 - Temporary illness or injury 7 -
+    Holidays or leave 8 - Education or training 9 - Personal or family issues 10 -
+    Adverse weather conditions 11 - Other (specify reason) '
   type: category
   categories:
     1: Seasonal
@@ -30,18 +32,20 @@
     '12': null
 1387:
   column_code: F3_D07
-  question: 'علت اصلی غیبت موقت شما از کار در طول هفته‌ی گذشته چه بوده است؟ فصلی بودن
-    کار (برای افراد خود اشتغال در مشاغل کشاورزی نظیر زراعت، باغداری، دامداری ماهیگیری
-    و ...) تعطیلی محل کار، تغییرات موقت سازمانی یا خرابی دستگاه‌ها و ماشین آلات نداشتن
-    مشتری یا سفارش تعلیق موقت از کار (با داشتن پیوند رسمی شغلی) نوبتی بودن کار بیماری
-    یا آسیب دیدگی موقت تعطیلات یا انواع مرخصی تحصیل یا آموزش مسائل شخصی و خانوادگی
-    شرایط جوی نامساعد سایر (با ذکر علت) '
+  question: 'علت اصلی غیبت موقت شما از کار در طول هفته‌ی گذشته چه بوده است؟ ۱ - فصلی
+    بودن کار (برای افراد خود اشتغال در مشاغل کشاورزی نظیر زراعت،  باغداری، دامداری
+    ماهیگیری و ...) ۲ - تعطیلی محل کار، تغییرات موقت سازمانی یا خرابی دستگاه‌ها و  ماشین
+    آلات ۳ - نداشتن مشتری یا سفارش ۴ - تعلیق موقت از کار (با داشتن پیوند رسمی شغلی)
+    ۵ - نوبتی بودن کار ۶ - بیماری یا آسیب دیدگی موقت ۷ - تعطیلات یا انواع مرخصی ۸
+    - تحصیل یا آموزش ۹ - مسائل شخصی و خانوادگی ۱۰ - شرایط جوی نامساعد ۱۱ - سایر (با
+    ذکر علت) '
   translation: 'What was the main reason for your temporary absence from work last
-    week? Seasonal work (for self-employed in agriculture like farming, gardening,
-    livestock, fishing, etc) Workplace closed, temporary organizational changes or
-    machine breakdowns No customers or orders Temporary layoff (while still officially
-    employed) Shift work Temporary illness or injury Holidays or leave Education or
-    training Personal or family issues Adverse weather conditions Other (specify reason) '
+    week? 1 - Seasonal work (for self-employed in agriculture like farming,  gardening,
+    livestock, fishing, etc) 2 - Workplace closed, temporary organizational changes
+    or machine  breakdowns 3 - No customers or orders 4 - Temporary layoff (while
+    still officially employed) 5 - Shift work 6 - Temporary illness or injury 7 -
+    Holidays or leave 8 - Education or training 9 - Personal or family issues 10 -
+    Adverse weather conditions 11 - Other (specify reason) '
   type: category
   categories:
     1: Seasonal

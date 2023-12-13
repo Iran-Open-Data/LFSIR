@@ -1,7 +1,7 @@
 1384:
   column_code: F3_D1_21
-  question: 'از چه طریقی در جستجوی شغل دیگری بوده‌اید؟ ۱- پیدا کردن شغل دیگر علاوه
-    بر شغل فعلی ۲- پیدا کردن شغل دیگر به جای شغل فعلی ۳- هر دو '
+  question: 'از چه طریقی در جستجوی شغل دیگری بوده‌اید؟ ۱ - پیدا کردن شغل دیگر علاوه
+    بر شغل فعلی ۲ - پیدا کردن شغل دیگر به جای شغل فعلی ۳ - هر دو '
   translation: 'How were you looking for another job? 1 - In addition to current job
     2 - To replace current job 3 - Both '
   type: category
@@ -11,8 +11,8 @@
     3: Both
 1387:
   column_code: F3_D26
-  question: 'از چه طریقی در جستجوی شغل دیگری بوده‌اید؟ ۱- پیدا کردن شغل دیگر علاوه
-    بر شغل فعلی ۲- پیدا کردن شغل دیگر به جای شغل فعلی ۳- هر دو '
+  question: 'از چه طریقی در جستجوی شغل دیگری بوده‌اید؟ ۱ - پیدا کردن شغل دیگر علاوه
+    بر شغل فعلی ۲ - پیدا کردن شغل دیگر به جای شغل فعلی ۳ - هر دو '
   translation: 'How were you looking for another job? 1 - In addition to current job
     2 - To replace current job 3 - Both '
   type: category

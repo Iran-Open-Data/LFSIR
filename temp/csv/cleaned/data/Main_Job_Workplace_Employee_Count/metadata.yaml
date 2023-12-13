@@ -1,9 +1,9 @@
 1384:
   column_code: F3_D10
-  question: 'تعداد کارکنان محل کار یک تا چهار نفر پنج تا نه نفر ده تا نوزده نفر بیست
-    تا چهل و نه نفر پنجاه نفر و بیشتر '
-  translation: 'Number of employees at the workplace: 1 to 4 people 5 to 9 people
-    10 to 19 people 20 to 49 people 50 people or more '
+  question: 'تعداد کارکنان محل کار ۱ - یک تا چهار نفر ۲ - پنج تا نه نفر ۳ - ده تا
+    نوزده نفر ۴ - بیست تا چهل و نه نفر ۵ - پنجاه نفر و بیشتر '
+  translation: 'Number of employees at the workplace: 1 - 1 to 4 people 2 - 5 to 9
+    people 3 - 10 to 19 people 4 - 20 to 49 people 5 - 50 people or more '
   type: category
   categories:
     1: 1-4
@@ -13,10 +13,10 @@
     5: 50+
 1387:
   column_code: F3_D12
-  question: 'تعداد کارکنان محل کار یک تا چهار نفر پنج تا نه نفر ده تا نوزده نفر بیست
-    تا چهل و نه نفر پنجاه نفر و بیشتر '
-  translation: 'Number of employees at the workplace: 1 to 4 people 5 to 9 people
-    10 to 19 people 20 to 49 people 50 people or more '
+  question: 'تعداد کارکنان محل کار ۱ - یک تا چهار نفر ۲ - پنج تا نه نفر ۳ - ده تا
+    نوزده نفر ۴ - بیست تا چهل و نه نفر ۵ - پنجاه نفر و بیشتر '
+  translation: 'Number of employees at the workplace: 1 - 1 to 4 people 2 - 5 to 9
+    people 3 - 10 to 19 people 4 - 20 to 49 people 5 - 50 people or more '
   type: category
   categories:
     1: 1-4

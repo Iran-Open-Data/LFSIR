@@ -1,8 +1,8 @@
 1384:
   column_code: F3_D21
-  question: 'به چه منظوری در جستجوی شغل دیگری بوده‌اید؟ ۱- افزایش درآمد ۲- کاهش ساعت
-    کار ۳- احتمال از دست دادن شغل فعلی ۴- استفاده بهینه از مهارت و تخصص ۵- افزایش
-    ساعت کار ۶- سایر '
+  question: 'به چه منظوری در جستجوی شغل دیگری بوده‌اید؟ ۱ - افزایش درآمد ۲ - کاهش
+    ساعت کار ۳ - احتمال از دست دادن شغل فعلی ۴ - استفاده بهینه از مهارت و تخصص ۵ -
+    افزایش ساعت کار ۶ - سایر '
   translation: 'For what purpose were you looking for another job? 1 - Increase income
     2 - Reduce work hours 3 - Possibility of losing current job 4 - Optimal use of
     skills 5 - Increase work hours 6 - Other '
@@ -16,9 +16,9 @@
     6: Other
 1387:
   column_code: F3_D25
-  question: 'به چه منظوری در جستجوی شغل دیگری بوده‌اید؟ ۱- افزایش درآمد ۲- کاهش ساعت
-    کار ۳- احتمال از دست دادن شغل فعلی ۴- استفاده بهینه از مهارت و تخصص ۵- افزایش
-    ساعت کار ۶- سایر '
+  question: 'به چه منظوری در جستجوی شغل دیگری بوده‌اید؟ ۱ - افزایش درآمد ۲ - کاهش
+    ساعت کار ۳ - احتمال از دست دادن شغل فعلی ۴ - استفاده بهینه از مهارت و تخصص ۵ -
+    افزایش ساعت کار ۶ - سایر '
   translation: 'For what purpose were you looking for another job? 1 - Increase income
     2 - Reduce work hours 3 - Possibility of losing current job 4 - Optimal use of
     skills 5 - Increase work hours 6 - Other '

@@ -1,7 +1,7 @@
 1384:
   column_code: F3_D2_16
-  question: 'به چه علت در هفته‌ی گذشته بیش از حد معمول کار کرده‌اید؟ ۱- اضافه کاری
-    غیر معمول ۲- سایر '
+  question: 'به چه علت در هفته‌ی گذشته بیش از حد معمول کار کرده‌اید؟ ۱ - اضافه کاری
+    غیر معمول ۲ - سایر '
   translation: 'Why did you work more than usual last week? 1 - Unusual overtime 2
     - Other '
   type: category
@@ -10,8 +10,8 @@
     2: Other
 1387:
   column_code: F3_D20
-  question: 'به چه علت در هفته‌ی گذشته بیش از حد معمول کار کرده‌اید؟ ۱- اضافه کاری
-    غیر معمول ۲- سایر '
+  question: 'به چه علت در هفته‌ی گذشته بیش از حد معمول کار کرده‌اید؟ ۱ - اضافه کاری
+    غیر معمول ۲ - سایر '
   translation: 'Why did you work more than usual last week? 1 - Unusual overtime 2
     - Other '
   type: category
