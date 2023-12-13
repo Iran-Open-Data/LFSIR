@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10"
-bssir = {git = "https://github.com/Iran-Open-Data/BSSIR.git"}
+bssir = "0.2.3"
 
 
 [tool.poetry.group.dev.dependencies]
