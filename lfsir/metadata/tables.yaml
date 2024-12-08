@@ -214,7 +214,41 @@ data:
 
     F2_D17:
       new_name: Education_Level  # HBSIR
-      type: string
+      type: category
+      categories:
+        1384:
+          "11": Primary
+          "21": Lower_Secondary
+          "31": Higher_Secondary
+          "41": Pre_University
+          "51": Short_Cycle_Tertiary
+          "52": Bachelors
+          "53": Masters
+          "54": UNKNOWN
+          "61": Doctoral
+          "71": Unofficial
+          "81": UNKNOWN
+        1387:
+          "11": Primary
+          "21": Lower_Secondary
+          "31": Higher_Secondary
+          "41": Pre_University
+          "51": Short_Cycle_Tertiary
+          "52": Bachelors
+          "53": Masters
+          "61": Doctoral
+          "71": Unofficial
+        1397:
+          1: Primary
+          2: Lower_Secondary
+          3: Higher_Secondary
+          4: Pre_University
+          5: Short_Cycle_Tertiary
+          6: Bachelors
+          7: Masters
+          8: Doctoral
+          9: Unofficial
+      replace: {"@@": null, "&&": null}
 
     F2_D18:
       new_name: Field_of_Education
