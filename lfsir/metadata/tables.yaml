@@ -359,7 +359,7 @@ data:
             Main characteristics and activity of the main job's workplace
             (ISIC code of the main job's workplace)
           type: UInt32
-          replace: {"X000": "000", "X0000": "0000"}
+          replace: {"X0": "00", "X000": "000", "X0000": "0000"}
 
         F3_D08: &F3_D08_1384
           new_name: Main_Job_Title_ISCO_Code
@@ -370,7 +370,7 @@ data:
             Main job title and primary duties in the main job
             (ISCO code for main job title)
           type: UInt32
-          replace: {"X000": "000", "X0000": "0000"}
+          replace: {"X0": "00", "X000": "000", "X0000": "0000"}
 
         F3_D09: &F3_D09_1384
           new_name: Main_Job_Employment_Status
@@ -934,7 +934,7 @@ data:
             Main characteristics and activity of the last job's workplace
             (ISIC code of the last job's workplace)
           type: UInt32
-          replace: {"X000": "000", "X0000": "0000"}
+          replace: {"X0": "00", "X000": "000", "X0000": "0000"}
 
         F3_D29: &F3_D29_1384
           new_name: Last_Job_Title_ISCO_Code
@@ -945,7 +945,7 @@ data:
             Main job title and primary duties in the last job
             (ISCO code for last job title)
           type: UInt32
-          replace: {"X000": "000", "X0000": "0000"}
+          replace: {"X0": "00", "X000": "000", "X0000": "0000"}
 
         F3_D30: &F3_D30_1384
           new_name: Last_Job_Employment_Status
