@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "lfsir"
-version = "0.1.3"
+version = "0.1.4"
 description = ""
 authors = ["mohammad amin alavian <m.amin.alavian@gmail.com>"]
 readme = "README.md"
