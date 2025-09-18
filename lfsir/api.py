@@ -9,7 +9,7 @@ and analysis for users without extensive programming knowledge.
 # pylint: disable=unused-argument
 # pylint: disable=too-many-locals
 
-from typing import Any, Iterable, Literal
+from typing import Any, Iterable, Literal, overload, Optional
 from pathlib import Path
 
 import pandas as pd
@@ -262,12 +262,34 @@ def add_classification(
     return api.add_classification(**parameters)
 
 
+@overload
 def setup(
     years: _Years,
     *,
     replace: bool = False,
-    method: Literal["create_from_raw", "download_cleaned"] = "download_cleaned",
-    download_source: Literal["original", "mirror"] = "mirror",
+    method: Literal["create_from_raw"] = "create_from_raw",
+    download_source: Literal["original", "mirror"] | str = "original",
+) -> None:
+    ...
+
+
+@overload
+def setup(
+    years: _Years,
+    *,
+    replace: bool = False,
+    method: Literal["download_cleaned"] = "download_cleaned",
+    download_source: Literal["mirror"] | str = "mirror",
+) -> None:
+    ...
+
+
+def setup(
+    years: _Years,
+    *,
+    replace: Optional[bool] = None,
+    method: Optional[Literal["create_from_raw", "download_cleaned"]] = None,
+    download_source: Optional[Literal["original", "mirror"] | str] = None,
 ) -> None:
     """Set up package data for the given years.
 

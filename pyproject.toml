@@ -1,27 +1,34 @@
-[tool.poetry]
+[project]
 name = "lfsir"
-version = "0.1.4"
+version = "0.6.0"
 description = ""
-authors = ["mohammad amin alavian <m.amin.alavian@gmail.com>"]
 readme = "README.md"
+authors = [
+  { name = "Mohammad Amin Alavian", email = "m.amin.alavian@gmail.com" }
+]
+keywords = ["iran", "survey", "data", "socioeconomic"]
+requires-python = ">=3.10"
+dependencies = [
+  "bssir"
+]
 
-[tool.poetry.dependencies]
-python = ">=3.10"
-bssir = "0.3.8"
+[project.optional-dependencies]
+dev = [
+  "bssir[dev]",
+]
+maintain = [
+  "bssir[maintain]",
+]
+notebook = [
+  "bssir[notebook]",
+]
 
+[project.urls]
+Homepage = "https://github.com/Iran-Open-Data/LFSIR"
+Repository = "https://github.com/Iran-Open-Data/LFSIR"
 
-[tool.poetry.group.dev.dependencies]
-ipykernel = "*"
-black = "*"
-tabulate = "*"
-mkdocs = "*"
-mkdocs-material = "*"
-mkdocs-literate-nav = "*"
-mkdocs-autorefs = "*"
-mkdocstrings-python = "*"
-mkdocs-jupyter = "*"
-pytest = "*"
+[tool.setuptools.packages.find]
+where = ["."]
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.setuptools.package-data]
+lfsir = ["**/*.yaml", "**/*.csv"]
