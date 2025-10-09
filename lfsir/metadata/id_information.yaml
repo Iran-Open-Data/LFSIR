@@ -1,50 +1,13 @@
 
 ID_Length:
-  1384: 10
-
-
-ID_Year:
-  code:
-    position:
-      start: 0
-      end: 2
-
-  name:
-    84: 1384
-    85: 1385
-    86: 1386
-    87: 1387
-    88: 1388
-    89: 1389
-
-    90: 1390
-    91: 1391
-    92: 1392
-    93: 1393
-    94: 1394
-    95: 1395
-    96: 1396
-    97: 1397
-    98: 1398
-    99: 1399
-
-    0: 1400
-    1: 1401
-    2: 1402
-    3: 1403
-    4: 1404
-    5: 1405
-    6: 1406
-    7: 1407
-    8: 1408
-    9: 1409
+  1384: 8
 
 
 Province:
   code:
     position:
-      start: 2
-      end: 4
+      start: 0
+      end: 2
 
   mappings:
     farsi_name:
@@ -88,8 +51,8 @@ Province:
 Urban_Rural:
   code:
     position:
-      start: 4
-      end: 5
+      start: 2
+      end: 3
 
   mappings:
     farsi_name:
@@ -97,7 +60,7 @@ Urban_Rural:
       mapping: rural_urban_translation
 
   name:
-    1363:
+    1384:
       0: "Rural"
       1: "Urban"
     1387:

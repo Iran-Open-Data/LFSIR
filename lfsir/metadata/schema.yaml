@@ -2,4 +2,9 @@
 
 data:
   instructions:
-    - add_year 
+    - add_year
+
+    - create_column:
+        name: ID
+        type: numerical
+        expression: "ID % 100_000_000"
