@@ -1756,9 +1756,9 @@ data:
       type: float
 
     ACTIVITYSTATUS:
-      new_name: Activity_State  # HBSIR
+      new_name: Activity_Status  # HBSIR
       type: category
       categories: 
-        1: Employed
-        2: Unemployed
-        3: Inactive
+        '1': Employed
+        '2': Unemployed
+        '3': Inactive
