@@ -93,3 +93,8 @@
   files:
     - name: data.zip
       original: https://amar.org.ir/Portals/0/Statistics/LFS_RawData1402_14030710-14030716090537.zip
+
+1403:
+  files:
+    - name: data.zip
+      original: https://amar.org.ir/Portals/0/Statistics/LFS_RawData1403_14040720-14040803101935.rar
