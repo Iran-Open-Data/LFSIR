@@ -17,7 +17,7 @@ def create_and_upload(
 ) -> None:
     if recreate_files:
         api.setup(
-            years,
+            years=years,
             table_names=table_names,
             method="create_from_raw",
             download_source="original",
