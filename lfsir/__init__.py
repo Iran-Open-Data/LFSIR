@@ -7,6 +7,9 @@ from .api import (
     setup_config,
 )
 
+
+__version__ = "0.6.1"
+
 __all__ = [
     "load_table",
     "load_knowledge",
