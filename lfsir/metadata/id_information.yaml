@@ -60,9 +60,5 @@ Urban_Rural:
       mapping: rural_urban_translation
 
   name:
-    1384:
-      0: "Rural"
-      1: "Urban"
-    1387:
-      1: "Urban"
-      2: "Rural"
+    1: "Urban"
+    2: "Rural"
