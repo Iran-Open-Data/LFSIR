@@ -9,4 +9,4 @@ original:
 
   items:
     1392: *isic4_items
-    1402: *isic_4_two_digit
+    1402: *isic_4_two_digit_items
