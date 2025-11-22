@@ -1,0 +1,12 @@
+
+
+original:
+
+  defaults:
+    levels: [1]
+    column_names: ["Industry"]
+    aspects: ["title"]
+
+  items:
+    1392: *isic4_items
+    1402: *isic_4_two_digit
