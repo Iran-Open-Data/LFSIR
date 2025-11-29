@@ -1,0 +1,10 @@
+
+original:
+  defaults:
+    levels: [1]
+    aspects: [label]
+    column_names: ["Occupation"]
+
+  items:
+    1384: $$isco$$
+    1402: $$isco_two_digit$$

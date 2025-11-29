@@ -8,5 +8,5 @@ original:
     aspects: ["title"]
 
   items:
-    1392: *isic4_items
-    1402: *isic_4_two_digit_items
+    1392: $$isic_4$$
+    1402: $$isic_4_two_digit$$
